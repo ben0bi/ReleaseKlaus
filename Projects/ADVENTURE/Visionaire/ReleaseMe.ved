@@ -1,0 +1,3000 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<VisionaireAdventure projectType="-1" revision="-1" version="196">
+	<Game name="" id="1" order="1" lastModified="-1" GameId="1667" GameDescription="Adventure, in welchem ein Alien sich aus der Basis der Menschen befreien muss." GameAbout="Adventure, in welchem ein Alien sich aus der Basis der Menschen befreien muss." GameIntro="" GameCommandBehaviour="0" GameFadeDelay="600" GameScrollSpeed="40" GameFullScreenIntro="F" GameDraggableItems="F" GameReserved="" GameHoldTime="600" GameFadeEffect="3" GameMinificationFilter="1" GameMagnificationFilter="1" GameAutoHideInterfacesInMenu="T" GameAlwaysAllowSkipText="T" GameExecuteActionsDuringDialog="F" GameAlignCharacterOnImExecution="F" GameComposedFile="" GameSceneComposedFiles="0" GameSceneComposedFile="" GameCharacterComposedFiles="0" GameCharacterComposedFile="" GameMovieComposedFiles="2" GameMovieComposedFile="" GameVersion="0.0.1" GameDrawActionText="1" GameQuake="F" GameSpeakerTextAlignment="0" GameTextAlignment="2" GameKeepCharacterSpritesDuringMenus="T" GameDisableInteractionDuringAnim="0" GamePictureCacheSize="40" GameInterfaceComposedFiles="0" GameInterfaceComposedFile="" GameGameComposedFiles="0" GameGameComposedFile="" GameVideosEncrypted="F" GameCompanyName="Ben0biEnterprises" GameGameName="ReleaseKlaus" GamePreloadPicThreads="3" GamePreloadedPicBufferSize="16384" GamePicBufferSize="120000" GameVideoSubtitleLanguage="" GameVideoAudioLanguage="" GamePreallocatedTextures="-1" GameNearestNeighborInterpolation="T" SpeakerSoundPanFactor="8" GameShowBlackScreenAfterVideo="F" GameSavegameScreenshot="" GameLeftHoldBehaviour="0" GameMiddleClickBehaviour="0" GameRightClickBehaviour="0" GameVideoPauseScreen="" GameExecuteCalledActionImmediately="T" GameIconFile="" GameBuildOptions="" GameSmoothScrolling="T" GameSaveNameOffsetY="-1" GameLeftClickBehaviour="1">
+		<GameSceneLinks>
+			<Link parentLink="T" id="0" tableId="4" LinkAny="F"/>
+			<Link parentLink="T" id="1" tableId="4" LinkAny="F"/>
+			<Link parentLink="T" id="2" tableId="4" LinkAny="F"/>
+		</GameSceneLinks>
+		<GameCharacterLinks>
+			<Link parentLink="T" id="0" tableId="0" LinkAny="F"/>
+		</GameCharacterLinks>
+		<GameInterfaces>
+			<Link parentLink="T" id="0" tableId="1" LinkAny="F"/>
+		</GameInterfaces>
+		<GameFontLinks>
+			<Link parentLink="T" id="0" tableId="3" LinkAny="F"/>
+			<Link parentLink="T" id="1" tableId="3" LinkAny="F"/>
+			<Link parentLink="T" id="2" tableId="3" LinkAny="F"/>
+			<Link parentLink="T" id="3" tableId="3" LinkAny="F"/>
+			<Link parentLink="T" id="4" tableId="3" LinkAny="F"/>
+		</GameFontLinks>
+		<GameLanguages>
+			<Link parentLink="T" id="1" tableId="18" LinkAny="F"/>
+			<Link parentLink="T" id="2" tableId="18" LinkAny="F"/>
+		</GameLanguages>
+		<GameFirstScene parentLink="F" id="0" tableId="4" LinkAny="F"/>
+		<GameItems>
+		</GameItems>
+		<GameLoading parentLink="T" id="0" tableId="21" LinkAny="F"/>
+		<GameWindowResolution x="320" y="200"/>
+		<GameCursors>
+			<Link parentLink="T" id="0" tableId="15" LinkAny="F"/>
+			<Link parentLink="T" id="1" tableId="15" LinkAny="F"/>
+			<Link parentLink="T" id="2" tableId="15" LinkAny="F"/>
+			<Link parentLink="T" id="3" tableId="15" LinkAny="F"/>
+			<Link parentLink="T" id="4" tableId="15" LinkAny="F"/>
+		</GameCursors>
+		<GameFirstCharacter parentLink="F" id="0" tableId="0" LinkAny="F"/>
+		<GameStandardLanguage parentLink="F" id="1" tableId="18" LinkAny="F"/>
+		<GameActions>
+			<Link parentLink="T" id="7" tableId="7" LinkAny="F"/>
+		</GameActions>
+		<GameStartAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		<GameRightClickAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		<GameLeftDblClickAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		<GameLeftHoldAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		<GameLeftHoldingAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		<GameParticleContainerLinks>
+		</GameParticleContainerLinks>
+		<GameLeftClickAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		<GameActionTextFont parentLink="F" id="0" tableId="3" LinkAny="F"/>
+		<GameActionTextRect top="-1" left="-1" bottom="-3" right="-3"/>
+		<GameScriptLinks>
+		</GameScriptLinks>
+		<GameInterfaceClasses>
+			<Link parentLink="T" id="0" tableId="31" LinkAny="F"/>
+			<Link parentLink="T" id="1" tableId="31" LinkAny="F"/>
+			<Link parentLink="T" id="2" tableId="31" LinkAny="F"/>
+			<Link parentLink="T" id="3" tableId="31" LinkAny="F"/>
+			<Link parentLink="T" id="4" tableId="31" LinkAny="F"/>
+		</GameInterfaceClasses>
+		<GameObjectFont parentLink="F" id="1" tableId="3" LinkAny="F"/>
+		<GameVideoSubtitleFont parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		<GameVideoSubtitlePosition x="-1" y="-1"/>
+		<GameMiddleClickAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		<GameMouseWheelUpAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		<GameMouseWheelDownAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		<GameContainers>
+		</GameContainers>
+		<GameBuildRules>
+			<path path="\eActionParts(VActionPartCommand=66);.vv&lt;3c&gt;;copy"/>
+			<path path="\eGame;&lt;Main.vis&gt;"/>
+		</GameBuildRules>
+		<GameShaderLinks>
+		</GameShaderLinks>
+		<GameAudioMixLinks>
+			<Link parentLink="T" id="0" tableId="37" LinkAny="F"/>
+			<Link parentLink="T" id="1" tableId="37" LinkAny="F"/>
+			<Link parentLink="T" id="2" tableId="37" LinkAny="F"/>
+		</GameAudioMixLinks>
+		<GameAudioContainerLinks>
+		</GameAudioContainerLinks>
+		<GameDefaultSpeechBus parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		<GameDefaultSoundBus parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		<GameWalksoundBus parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		<GameDefaultMusicBus parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		<GameCursor parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		<GameCustomActionParts>
+		</GameCustomActionParts>
+		<GamePlugins>
+		</GamePlugins>
+		<GameBlockContainers>
+		</GameBlockContainers>
+		<GameWaitCursor parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		<GameBehaviours>
+		</GameBehaviours>
+	</Game>
+	<Loadings newId="1" versionedId="-1" tableId="21">
+		<Loading name="Unnamed" id="0" order="0" lastModified="-1" LoadingMusic="" LoadingStatusCover="F">
+			<LoadingSprite name="" pause="-1" path="" Transparency="-1">
+				<position x="0" y="0"/>
+			</LoadingSprite>
+			<LoadingStatusSprite name="" pause="-1" path="" Transparency="-1">
+				<position x="0" y="0"/>
+			</LoadingStatusSprite>
+		</Loading>
+	</Loadings>
+	<Characters newId="1" versionedId="-1" tableId="0">
+		<Character name="Character_Klaus" id="0" order="0" lastModified="-1" CharacterWalkingSound="" CharacterScale="T" CharacterDialogVerticalSpace="10" CharacterScaleFactor="100" CharacterHarmonizeWalkAnimations="F">
+			<CharacterName parentLink="T" id="2" tableId="14" LinkAny="F"/>
+			<CharacterInterfaces>
+				<Link parentLink="F" id="0" tableId="1" LinkAny="F"/>
+			</CharacterInterfaces>
+			<CharacterFont parentLink="F" id="2" tableId="3" LinkAny="F"/>
+			<CharacterCurrentOutfit parentLink="F" id="0" tableId="17" LinkAny="F"/>
+			<CharacterCurrentCommentSet parentLink="F" id="0" tableId="16" LinkAny="F"/>
+			<CharacterDialogCursor parentLink="F" id="0" tableId="15" LinkAny="F"/>
+			<CharacterDialogs>
+			</CharacterDialogs>
+			<CharacterActions>
+			</CharacterActions>
+			<CharacterOutfits>
+				<Link parentLink="T" id="0" tableId="17" LinkAny="F"/>
+			</CharacterOutfits>
+			<CharacterCommentSets>
+				<Link parentLink="T" id="0" tableId="16" LinkAny="F"/>
+			</CharacterCommentSets>
+			<CharacterStartObject parentLink="F" id="9" tableId="6" LinkAny="F"/>
+			<CharacterValues>
+			</CharacterValues>
+			<CharacterConditions>
+			</CharacterConditions>
+			<CharacterActiveDialogFont parentLink="F" id="2" tableId="3" LinkAny="F"/>
+			<CharacterInactiveDialogFont parentLink="F" id="1" tableId="3" LinkAny="F"/>
+			<CharacterDialogArea top="0" left="0" bottom="-1" right="-1"/>
+			<CharacterDialogActiveScrollUp name="" pause="-1" path="" Transparency="-1">
+				<position x="0" y="0"/>
+			</CharacterDialogActiveScrollUp>
+			<CharacterDialogInactiveScrollUp name="" pause="-1" path="" Transparency="-1">
+				<position x="0" y="0"/>
+			</CharacterDialogInactiveScrollUp>
+			<CharacterDialogActiveScrollDown name="" pause="-1" path="" Transparency="-1">
+				<position x="0" y="0"/>
+			</CharacterDialogActiveScrollDown>
+			<CharacterDialogInactiveScrollDown name="" pause="-1" path="" Transparency="-1">
+				<position x="0" y="0"/>
+			</CharacterDialogInactiveScrollDown>
+			<CharacterDialogSprite name="" pause="-1" path="" Transparency="-1">
+				<position x="0" y="0"/>
+			</CharacterDialogSprite>
+			<CharacterActionDestPosition x="158" y="153"/>
+			<CharacterAudioBus parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</Character>
+	</Characters>
+	<Interfaces newId="1" versionedId="-1" tableId="1">
+		<Interface name="Mouse" id="0" order="0" lastModified="-1" InterfaceScrollStepSize="1" InterfaceDisplacement="1" InterfaceSize="-1" InterfaceDrawActionText="F" InterfaceShowAlways="F">
+			<InterfaceSprite name="" pause="-1" path="" Transparency="-1">
+				<position x="0" y="0"/>
+			</InterfaceSprite>
+			<InterfaceButtons>
+				<Link parentLink="T" id="0" tableId="2" LinkAny="F"/>
+			</InterfaceButtons>
+			<InterfaceStandardCommand parentLink="F" id="0" tableId="2" LinkAny="F"/>
+			<InterfaceOffset x="0" y="0"/>
+			<InterfaceActionTextFont parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<InterfaceActionTextRect top="0" left="0" bottom="-1" right="-1"/>
+			<InterfaceBorder>
+			</InterfaceBorder>
+			<InterfaceLeaveAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<InterfaceConditions>
+			</InterfaceConditions>
+			<InterfaceValues>
+			</InterfaceValues>
+			<InterfaceInterfaceClass parentLink="F" id="0" tableId="31" LinkAny="F"/>
+		</Interface>
+	</Interfaces>
+	<Buttons newId="1" versionedId="-1" tableId="2">
+		<Button name="left_click" id="0" order="0" lastModified="-1" ButtonType="3" ButtonCommandType="0" ButtonUse="0" ButtonUseOnCurrentCharacter="F" ButtonConditionNegate="F" ButtonDraggable="F" ButtonValueOperator="-1" ButtonValueInt="-1">
+			<ButtonActiveSprite parentLink="T" id="0" tableId="13" LinkAny="F"/>
+			<ButtonInactiveSprite parentLink="T" id="1" tableId="13" LinkAny="F"/>
+			<ButtonCursor parentLink="F" id="0" tableId="15" LinkAny="F"/>
+			<ButtonName parentLink="T" id="3" tableId="14" LinkAny="F"/>
+			<ButtonConjunction parentLink="T" id="4" tableId="14" LinkAny="F"/>
+			<ButtonPolygon>
+			</ButtonPolygon>
+			<ButtonActions>
+			</ButtonActions>
+			<ButtonCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ButtonAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ButtonAnimations>
+			</ButtonAnimations>
+			<ButtonGroup>
+				<Link parentLink="F" id="0" tableId="2" LinkAny="F"/>
+			</ButtonGroup>
+			<ButtonValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</Button>
+	</Buttons>
+	<Fonts newId="5" versionedId="-1" tableId="3">
+		<Font name="action_text" id="0" order="0" lastModified="-1" FontAlphabet="0123456789:;,-.?ABCDEFGHIJKLMNOPQRSTUVWXYZ&lt;=&gt;/\!abcdefghijklmnopqrstuvwxyz{}()[]ÜÄÖüäöß&quot;#$%&amp;'~|*+^_`´@" FontLetterSpacing="0" VerticalLetterSpacing="-4" FontSpaceWidth="4" FontAutoLineBreak="T" FontLineWidth="320" FontKerning="" FontTrueTypeFont="F" FontTrueTypeFontPath="" FontSize="12.000000" FontColor="16777215" FontBorder="T" FontBorderColor="0" FontBorderSize="2.000000" FontShadow="T">
+			<FontSprite name="" pause="-1" path="fonts/ben0biFont_action.png" Transparency="-1">
+				<position x="0" y="0"/>
+			</FontSprite>
+			<FontLetters>
+				<rect top="1" left="31" bottom="14" right="36"/>
+				<rect top="1" left="43" bottom="14" right="46"/>
+				<rect top="1" left="53" bottom="14" right="58"/>
+				<rect top="1" left="64" bottom="14" right="69"/>
+				<rect top="1" left="75" bottom="14" right="81"/>
+				<rect top="1" left="86" bottom="14" right="91"/>
+				<rect top="1" left="97" bottom="14" right="102"/>
+				<rect top="1" left="108" bottom="14" right="113"/>
+				<rect top="1" left="119" bottom="14" right="124"/>
+				<rect top="1" left="130" bottom="14" right="135"/>
+				<rect top="1" left="143" bottom="14" right="145"/>
+				<rect top="1" left="153" bottom="14" right="156"/>
+				<rect top="1" left="164" bottom="14" right="167"/>
+				<rect top="1" left="175" bottom="14" right="179"/>
+				<rect top="1" left="186" bottom="14" right="188"/>
+				<rect top="1" left="196" bottom="14" right="201"/>
+				<rect top="23" left="31" bottom="36" right="36"/>
+				<rect top="23" left="42" bottom="36" right="47"/>
+				<rect top="23" left="54" bottom="36" right="58"/>
+				<rect top="23" left="64" bottom="36" right="69"/>
+				<rect top="23" left="76" bottom="36" right="80"/>
+				<rect top="23" left="87" bottom="36" right="91"/>
+				<rect top="23" left="97" bottom="36" right="102"/>
+				<rect top="23" left="108" bottom="36" right="113"/>
+				<rect top="23" left="120" bottom="36" right="124"/>
+				<rect top="23" left="130" bottom="36" right="135"/>
+				<rect top="23" left="141" bottom="36" right="146"/>
+				<rect top="23" left="153" bottom="36" right="157"/>
+				<rect top="23" left="163" bottom="36" right="169"/>
+				<rect top="23" left="174" bottom="36" right="179"/>
+				<rect top="23" left="185" bottom="36" right="190"/>
+				<rect top="23" left="196" bottom="36" right="201"/>
+				<rect top="45" left="31" bottom="58" right="36"/>
+				<rect top="45" left="42" bottom="58" right="47"/>
+				<rect top="45" left="53" bottom="58" right="58"/>
+				<rect top="45" left="64" bottom="58" right="68"/>
+				<rect top="45" left="75" bottom="58" right="80"/>
+				<rect top="45" left="86" bottom="58" right="91"/>
+				<rect top="45" left="97" bottom="58" right="103"/>
+				<rect top="45" left="108" bottom="58" right="113"/>
+				<rect top="45" left="119" bottom="58" right="124"/>
+				<rect top="45" left="131" bottom="58" right="135"/>
+				<rect top="45" left="142" bottom="58" right="146"/>
+				<rect top="45" left="152" bottom="58" right="157"/>
+				<rect top="45" left="164" bottom="58" right="168"/>
+				<rect top="45" left="175" bottom="58" right="179"/>
+				<rect top="45" left="186" bottom="58" right="190"/>
+				<rect top="45" left="197" bottom="58" right="199"/>
+				<rect top="67" left="31" bottom="80" right="36"/>
+				<rect top="67" left="42" bottom="80" right="47"/>
+				<rect top="67" left="54" bottom="80" right="58"/>
+				<rect top="67" left="64" bottom="80" right="69"/>
+				<rect top="67" left="75" bottom="80" right="80"/>
+				<rect top="67" left="87" bottom="80" right="91"/>
+				<rect top="67" left="97" bottom="80" right="102"/>
+				<rect top="67" left="108" bottom="80" right="113"/>
+				<rect top="67" left="121" bottom="80" right="123"/>
+				<rect top="67" left="131" bottom="80" right="134"/>
+				<rect top="67" left="141" bottom="80" right="146"/>
+				<rect top="67" left="154" bottom="80" right="156"/>
+				<rect top="67" left="163" bottom="80" right="169"/>
+				<rect top="67" left="174" bottom="80" right="179"/>
+				<rect top="67" left="185" bottom="80" right="190"/>
+				<rect top="67" left="196" bottom="80" right="201"/>
+				<rect top="89" left="31" bottom="102" right="36"/>
+				<rect top="89" left="43" bottom="102" right="47"/>
+				<rect top="89" left="53" bottom="102" right="58"/>
+				<rect top="89" left="65" bottom="102" right="69"/>
+				<rect top="89" left="75" bottom="102" right="80"/>
+				<rect top="89" left="86" bottom="102" right="91"/>
+				<rect top="89" left="97" bottom="102" right="103"/>
+				<rect top="89" left="109" bottom="102" right="113"/>
+				<rect top="89" left="119" bottom="102" right="124"/>
+				<rect top="89" left="130" bottom="102" right="135"/>
+				<rect top="89" left="142" bottom="102" right="146"/>
+				<rect top="89" left="153" bottom="102" right="157"/>
+				<rect top="89" left="164" bottom="102" right="167"/>
+				<rect top="89" left="175" bottom="102" right="178"/>
+				<rect top="89" left="186" bottom="102" right="189"/>
+				<rect top="89" left="197" bottom="102" right="200"/>
+				<rect top="111" left="31" bottom="124" right="36"/>
+				<rect top="111" left="42" bottom="124" right="47"/>
+				<rect top="111" left="53" bottom="124" right="58"/>
+				<rect top="111" left="64" bottom="124" right="69"/>
+				<rect top="111" left="75" bottom="124" right="80"/>
+				<rect top="111" left="86" bottom="124" right="91"/>
+				<rect top="111" left="98" bottom="124" right="102"/>
+				<rect top="133" left="32" bottom="146" right="36"/>
+				<rect top="133" left="42" bottom="146" right="49"/>
+				<rect top="133" left="53" bottom="146" right="58"/>
+				<rect top="133" left="65" bottom="146" right="69"/>
+				<rect top="133" left="75" bottom="146" right="81"/>
+				<rect top="133" left="88" bottom="146" right="90"/>
+				<rect top="133" left="97" bottom="146" right="103"/>
+				<rect top="133" left="111" bottom="146" right="113"/>
+				<rect top="133" left="120" bottom="146" right="124"/>
+				<rect top="133" left="131" bottom="146" right="135"/>
+				<rect top="133" left="142" bottom="146" right="146"/>
+				<rect top="133" left="152" bottom="146" right="158"/>
+				<rect top="133" left="164" bottom="146" right="167"/>
+				<rect top="133" left="175" bottom="146" right="178"/>
+				<rect top="133" left="185" bottom="146" right="191"/>
+				<rect top="133" left="204" bottom="146" right="205"/>
+			</FontLetters>
+			<FontFont parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<FontShadowOffset x="1" y="1"/>
+		</Font>
+		<Font name="normal" id="1" order="1" lastModified="-1" FontAlphabet="0123456789:;,-.?ABCDEFGHIJKLMNOPQRSTUVWXYZ&lt;=&gt;/\!abcdefghijklmnopqrstuvwxyz{}()[]ÜÄÖüäöß&quot;#$%&amp;'~|*+^_`´@" FontLetterSpacing="0" VerticalLetterSpacing="-4" FontSpaceWidth="4" FontAutoLineBreak="T" FontLineWidth="320" FontKerning="" FontTrueTypeFont="F" FontTrueTypeFontPath="fonts/outline_pixel-7.ttf" FontSize="12.000000" FontColor="16777215" FontBorder="T" FontBorderColor="0" FontBorderSize="2.000000" FontShadow="T">
+			<FontSprite name="" pause="-1" path="fonts/ben0biFont1.png" Transparency="-1">
+				<position x="0" y="0"/>
+			</FontSprite>
+			<FontLetters>
+				<rect top="1" left="31" bottom="14" right="36"/>
+				<rect top="1" left="43" bottom="14" right="46"/>
+				<rect top="1" left="53" bottom="14" right="58"/>
+				<rect top="1" left="64" bottom="14" right="69"/>
+				<rect top="1" left="75" bottom="14" right="81"/>
+				<rect top="1" left="86" bottom="14" right="91"/>
+				<rect top="1" left="97" bottom="14" right="102"/>
+				<rect top="1" left="108" bottom="14" right="113"/>
+				<rect top="1" left="119" bottom="14" right="124"/>
+				<rect top="1" left="130" bottom="14" right="135"/>
+				<rect top="1" left="143" bottom="14" right="145"/>
+				<rect top="1" left="153" bottom="14" right="156"/>
+				<rect top="1" left="164" bottom="14" right="167"/>
+				<rect top="1" left="175" bottom="14" right="179"/>
+				<rect top="1" left="186" bottom="14" right="188"/>
+				<rect top="1" left="196" bottom="14" right="201"/>
+				<rect top="23" left="31" bottom="36" right="36"/>
+				<rect top="23" left="42" bottom="36" right="47"/>
+				<rect top="23" left="54" bottom="36" right="58"/>
+				<rect top="23" left="64" bottom="36" right="69"/>
+				<rect top="23" left="76" bottom="36" right="80"/>
+				<rect top="23" left="87" bottom="36" right="91"/>
+				<rect top="23" left="97" bottom="36" right="102"/>
+				<rect top="23" left="108" bottom="36" right="113"/>
+				<rect top="23" left="120" bottom="36" right="124"/>
+				<rect top="23" left="130" bottom="36" right="135"/>
+				<rect top="23" left="141" bottom="36" right="146"/>
+				<rect top="23" left="153" bottom="36" right="157"/>
+				<rect top="23" left="163" bottom="36" right="169"/>
+				<rect top="23" left="174" bottom="36" right="179"/>
+				<rect top="23" left="185" bottom="36" right="190"/>
+				<rect top="23" left="196" bottom="36" right="201"/>
+				<rect top="45" left="31" bottom="58" right="36"/>
+				<rect top="45" left="42" bottom="58" right="47"/>
+				<rect top="45" left="53" bottom="58" right="58"/>
+				<rect top="45" left="64" bottom="58" right="68"/>
+				<rect top="45" left="75" bottom="58" right="80"/>
+				<rect top="45" left="86" bottom="58" right="91"/>
+				<rect top="45" left="97" bottom="58" right="103"/>
+				<rect top="45" left="108" bottom="58" right="113"/>
+				<rect top="45" left="119" bottom="58" right="124"/>
+				<rect top="45" left="131" bottom="58" right="135"/>
+				<rect top="45" left="142" bottom="58" right="146"/>
+				<rect top="45" left="152" bottom="58" right="157"/>
+				<rect top="45" left="164" bottom="58" right="168"/>
+				<rect top="45" left="175" bottom="58" right="179"/>
+				<rect top="45" left="186" bottom="58" right="190"/>
+				<rect top="45" left="197" bottom="58" right="199"/>
+				<rect top="67" left="31" bottom="80" right="36"/>
+				<rect top="67" left="42" bottom="80" right="47"/>
+				<rect top="67" left="54" bottom="80" right="58"/>
+				<rect top="67" left="64" bottom="80" right="69"/>
+				<rect top="67" left="75" bottom="80" right="80"/>
+				<rect top="67" left="87" bottom="80" right="91"/>
+				<rect top="67" left="97" bottom="80" right="102"/>
+				<rect top="67" left="108" bottom="80" right="113"/>
+				<rect top="67" left="121" bottom="80" right="123"/>
+				<rect top="67" left="131" bottom="80" right="134"/>
+				<rect top="67" left="141" bottom="80" right="146"/>
+				<rect top="67" left="154" bottom="80" right="156"/>
+				<rect top="67" left="163" bottom="80" right="169"/>
+				<rect top="67" left="174" bottom="80" right="179"/>
+				<rect top="67" left="185" bottom="80" right="190"/>
+				<rect top="67" left="196" bottom="80" right="201"/>
+				<rect top="89" left="31" bottom="102" right="36"/>
+				<rect top="89" left="43" bottom="102" right="47"/>
+				<rect top="89" left="53" bottom="102" right="58"/>
+				<rect top="89" left="65" bottom="102" right="69"/>
+				<rect top="89" left="75" bottom="102" right="80"/>
+				<rect top="89" left="86" bottom="102" right="91"/>
+				<rect top="89" left="97" bottom="102" right="103"/>
+				<rect top="89" left="109" bottom="102" right="113"/>
+				<rect top="89" left="119" bottom="102" right="124"/>
+				<rect top="89" left="130" bottom="102" right="135"/>
+				<rect top="89" left="142" bottom="102" right="146"/>
+				<rect top="89" left="153" bottom="102" right="157"/>
+				<rect top="89" left="164" bottom="102" right="167"/>
+				<rect top="89" left="175" bottom="102" right="178"/>
+				<rect top="89" left="186" bottom="102" right="189"/>
+				<rect top="89" left="197" bottom="102" right="200"/>
+				<rect top="111" left="31" bottom="124" right="36"/>
+				<rect top="111" left="42" bottom="124" right="47"/>
+				<rect top="111" left="53" bottom="124" right="58"/>
+				<rect top="111" left="64" bottom="124" right="69"/>
+				<rect top="111" left="75" bottom="124" right="80"/>
+				<rect top="111" left="86" bottom="124" right="91"/>
+				<rect top="111" left="98" bottom="124" right="102"/>
+				<rect top="133" left="32" bottom="146" right="36"/>
+				<rect top="133" left="42" bottom="146" right="49"/>
+				<rect top="133" left="53" bottom="146" right="58"/>
+				<rect top="133" left="65" bottom="146" right="69"/>
+				<rect top="133" left="75" bottom="146" right="81"/>
+				<rect top="133" left="88" bottom="146" right="90"/>
+				<rect top="133" left="97" bottom="146" right="103"/>
+				<rect top="133" left="111" bottom="146" right="113"/>
+				<rect top="133" left="120" bottom="146" right="124"/>
+				<rect top="133" left="131" bottom="146" right="135"/>
+				<rect top="133" left="142" bottom="146" right="146"/>
+				<rect top="133" left="152" bottom="146" right="158"/>
+				<rect top="133" left="164" bottom="146" right="167"/>
+				<rect top="133" left="175" bottom="146" right="178"/>
+				<rect top="133" left="185" bottom="146" right="191"/>
+				<rect top="133" left="204" bottom="146" right="205"/>
+			</FontLetters>
+			<FontFont parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<FontShadowOffset x="-1" y="-1"/>
+		</Font>
+		<Font name="hero_font" id="2" order="4" lastModified="-1" FontAlphabet="0123456789:;,-.?ABCDEFGHIJKLMNOPQRSTUVWXYZ&lt;=&gt;/\!abcdefghijklmnopqrstuvwxyz{}()[]ÜÄÖüäöß&quot;#$%&amp;'~|*+^_`´@" FontLetterSpacing="0" VerticalLetterSpacing="-4" FontSpaceWidth="4" FontAutoLineBreak="T" FontLineWidth="200" FontKerning="" FontTrueTypeFont="F" FontTrueTypeFontPath="" FontSize="12.000000" FontColor="33383" FontBorder="T" FontBorderColor="0" FontBorderSize="2.000000" FontShadow="T">
+			<FontSprite name="" pause="-1" path="" Transparency="-1">
+				<position x="0" y="0"/>
+			</FontSprite>
+			<FontLetters>
+				<rect top="1" left="31" bottom="14" right="36"/>
+				<rect top="1" left="43" bottom="14" right="46"/>
+				<rect top="1" left="53" bottom="14" right="58"/>
+				<rect top="1" left="64" bottom="14" right="69"/>
+				<rect top="1" left="75" bottom="14" right="81"/>
+				<rect top="1" left="86" bottom="14" right="91"/>
+				<rect top="1" left="97" bottom="14" right="102"/>
+				<rect top="1" left="108" bottom="14" right="113"/>
+				<rect top="1" left="119" bottom="14" right="124"/>
+				<rect top="1" left="130" bottom="14" right="135"/>
+				<rect top="1" left="143" bottom="14" right="145"/>
+				<rect top="1" left="153" bottom="14" right="156"/>
+				<rect top="1" left="164" bottom="14" right="167"/>
+				<rect top="1" left="175" bottom="14" right="179"/>
+				<rect top="1" left="186" bottom="14" right="188"/>
+				<rect top="1" left="196" bottom="14" right="201"/>
+				<rect top="23" left="31" bottom="36" right="36"/>
+				<rect top="23" left="42" bottom="36" right="47"/>
+				<rect top="23" left="54" bottom="36" right="58"/>
+				<rect top="23" left="64" bottom="36" right="69"/>
+				<rect top="23" left="76" bottom="36" right="80"/>
+				<rect top="23" left="87" bottom="36" right="91"/>
+				<rect top="23" left="97" bottom="36" right="102"/>
+				<rect top="23" left="108" bottom="36" right="113"/>
+				<rect top="23" left="120" bottom="36" right="124"/>
+				<rect top="23" left="130" bottom="36" right="135"/>
+				<rect top="23" left="141" bottom="36" right="146"/>
+				<rect top="23" left="153" bottom="36" right="157"/>
+				<rect top="23" left="163" bottom="36" right="169"/>
+				<rect top="23" left="174" bottom="36" right="179"/>
+				<rect top="23" left="185" bottom="36" right="190"/>
+				<rect top="23" left="196" bottom="36" right="201"/>
+				<rect top="45" left="31" bottom="58" right="36"/>
+				<rect top="45" left="42" bottom="58" right="47"/>
+				<rect top="45" left="53" bottom="58" right="58"/>
+				<rect top="45" left="64" bottom="58" right="68"/>
+				<rect top="45" left="75" bottom="58" right="80"/>
+				<rect top="45" left="86" bottom="58" right="91"/>
+				<rect top="45" left="97" bottom="58" right="103"/>
+				<rect top="45" left="108" bottom="58" right="113"/>
+				<rect top="45" left="119" bottom="58" right="124"/>
+				<rect top="45" left="131" bottom="58" right="135"/>
+				<rect top="45" left="142" bottom="58" right="146"/>
+				<rect top="45" left="152" bottom="58" right="157"/>
+				<rect top="45" left="164" bottom="58" right="168"/>
+				<rect top="45" left="175" bottom="58" right="179"/>
+				<rect top="45" left="186" bottom="58" right="190"/>
+				<rect top="45" left="197" bottom="58" right="199"/>
+				<rect top="67" left="31" bottom="80" right="36"/>
+				<rect top="67" left="42" bottom="80" right="47"/>
+				<rect top="67" left="54" bottom="80" right="58"/>
+				<rect top="67" left="64" bottom="80" right="69"/>
+				<rect top="67" left="75" bottom="80" right="80"/>
+				<rect top="67" left="87" bottom="80" right="91"/>
+				<rect top="67" left="97" bottom="80" right="102"/>
+				<rect top="67" left="108" bottom="80" right="113"/>
+				<rect top="67" left="121" bottom="80" right="123"/>
+				<rect top="67" left="131" bottom="80" right="134"/>
+				<rect top="67" left="141" bottom="80" right="146"/>
+				<rect top="67" left="154" bottom="80" right="156"/>
+				<rect top="67" left="163" bottom="80" right="169"/>
+				<rect top="67" left="174" bottom="80" right="179"/>
+				<rect top="67" left="185" bottom="80" right="190"/>
+				<rect top="67" left="196" bottom="80" right="201"/>
+				<rect top="89" left="31" bottom="102" right="36"/>
+				<rect top="89" left="43" bottom="102" right="47"/>
+				<rect top="89" left="53" bottom="102" right="58"/>
+				<rect top="89" left="65" bottom="102" right="69"/>
+				<rect top="89" left="75" bottom="102" right="80"/>
+				<rect top="89" left="86" bottom="102" right="91"/>
+				<rect top="89" left="97" bottom="102" right="103"/>
+				<rect top="89" left="109" bottom="102" right="113"/>
+				<rect top="89" left="119" bottom="102" right="124"/>
+				<rect top="89" left="130" bottom="102" right="135"/>
+				<rect top="89" left="142" bottom="102" right="146"/>
+				<rect top="89" left="153" bottom="102" right="157"/>
+				<rect top="89" left="164" bottom="102" right="167"/>
+				<rect top="89" left="175" bottom="102" right="178"/>
+				<rect top="89" left="186" bottom="102" right="189"/>
+				<rect top="89" left="197" bottom="102" right="200"/>
+				<rect top="111" left="31" bottom="124" right="36"/>
+				<rect top="111" left="42" bottom="124" right="47"/>
+				<rect top="111" left="53" bottom="124" right="58"/>
+				<rect top="111" left="64" bottom="124" right="69"/>
+				<rect top="111" left="75" bottom="124" right="80"/>
+				<rect top="111" left="86" bottom="124" right="91"/>
+				<rect top="111" left="98" bottom="124" right="102"/>
+				<rect top="133" left="32" bottom="146" right="36"/>
+				<rect top="133" left="42" bottom="146" right="49"/>
+				<rect top="133" left="53" bottom="146" right="58"/>
+				<rect top="133" left="65" bottom="146" right="69"/>
+				<rect top="133" left="75" bottom="146" right="81"/>
+				<rect top="133" left="88" bottom="146" right="90"/>
+				<rect top="133" left="97" bottom="146" right="103"/>
+				<rect top="133" left="111" bottom="146" right="113"/>
+				<rect top="133" left="120" bottom="146" right="124"/>
+				<rect top="133" left="131" bottom="146" right="135"/>
+				<rect top="133" left="142" bottom="146" right="146"/>
+				<rect top="133" left="152" bottom="146" right="158"/>
+				<rect top="133" left="164" bottom="146" right="167"/>
+				<rect top="133" left="175" bottom="146" right="178"/>
+				<rect top="133" left="185" bottom="146" right="191"/>
+				<rect top="133" left="204" bottom="146" right="205"/>
+			</FontLetters>
+			<FontFont parentLink="F" id="1" tableId="3" LinkAny="F"/>
+			<FontShadowOffset x="1" y="1"/>
+		</Font>
+		<Font name="alien" id="3" order="2" lastModified="-1" FontAlphabet="0123456789:;,-.?ABCDEFGHIJKLMNOPQRSTUVWXYZ&lt;=&gt;/\!abcdefghijklmnopqrstuvwxyz{}()[]ÜÄÖüäöß&quot;#$%&amp;'~|*+^_`´@" FontLetterSpacing="0" VerticalLetterSpacing="-4" FontSpaceWidth="4" FontAutoLineBreak="T" FontLineWidth="320" FontKerning="" FontTrueTypeFont="F" FontTrueTypeFontPath="" FontSize="12.000000" FontColor="16777215" FontBorder="T" FontBorderColor="0" FontBorderSize="2.000000" FontShadow="T">
+			<FontSprite name="" pause="-1" path="fonts/Alien_ben0biFont.png" Transparency="-1">
+				<position x="0" y="0"/>
+			</FontSprite>
+			<FontLetters>
+				<rect top="1" left="31" bottom="14" right="36"/>
+				<rect top="1" left="42" bottom="14" right="47"/>
+				<rect top="1" left="53" bottom="14" right="59"/>
+				<rect top="1" left="64" bottom="14" right="69"/>
+				<rect top="1" left="75" bottom="14" right="80"/>
+				<rect top="1" left="86" bottom="14" right="91"/>
+				<rect top="1" left="97" bottom="14" right="103"/>
+				<rect top="1" left="108" bottom="14" right="113"/>
+				<rect top="1" left="119" bottom="14" right="125"/>
+				<rect top="1" left="130" bottom="14" right="135"/>
+				<rect top="1" left="143" bottom="14" right="145"/>
+				<rect top="1" left="153" bottom="14" right="156"/>
+				<rect top="1" left="164" bottom="14" right="167"/>
+				<rect top="1" left="175" bottom="14" right="179"/>
+				<rect top="1" left="186" bottom="14" right="188"/>
+				<rect top="1" left="196" bottom="14" right="201"/>
+				<rect top="23" left="31" bottom="36" right="36"/>
+				<rect top="23" left="42" bottom="36" right="48"/>
+				<rect top="23" left="54" bottom="36" right="58"/>
+				<rect top="23" left="65" bottom="36" right="69"/>
+				<rect top="23" left="75" bottom="36" right="81"/>
+				<rect top="23" left="86" bottom="36" right="92"/>
+				<rect top="23" left="97" bottom="36" right="102"/>
+				<rect top="23" left="108" bottom="36" right="112"/>
+				<rect top="23" left="119" bottom="36" right="123"/>
+				<rect top="23" left="130" bottom="36" right="135"/>
+				<rect top="23" left="142" bottom="36" right="146"/>
+				<rect top="23" left="152" bottom="36" right="157"/>
+				<rect top="23" left="163" bottom="36" right="169"/>
+				<rect top="23" left="174" bottom="36" right="180"/>
+				<rect top="23" left="185" bottom="36" right="191"/>
+				<rect top="23" left="196" bottom="36" right="201"/>
+				<rect top="45" left="31" bottom="58" right="37"/>
+				<rect top="45" left="42" bottom="58" right="48"/>
+				<rect top="45" left="53" bottom="58" right="59"/>
+				<rect top="45" left="64" bottom="58" right="70"/>
+				<rect top="45" left="75" bottom="58" right="80"/>
+				<rect top="45" left="87" bottom="58" right="91"/>
+				<rect top="45" left="98" bottom="58" right="102"/>
+				<rect top="45" left="109" bottom="58" right="113"/>
+				<rect top="45" left="120" bottom="58" right="124"/>
+				<rect top="45" left="131" bottom="58" right="135"/>
+				<rect top="45" left="142" bottom="58" right="146"/>
+				<rect top="45" left="152" bottom="58" right="157"/>
+				<rect top="45" left="164" bottom="58" right="168"/>
+				<rect top="45" left="175" bottom="58" right="179"/>
+				<rect top="45" left="186" bottom="58" right="190"/>
+				<rect top="45" left="197" bottom="58" right="199"/>
+				<rect top="67" left="31" bottom="80" right="36"/>
+				<rect top="67" left="42" bottom="80" right="48"/>
+				<rect top="67" left="54" bottom="80" right="58"/>
+				<rect top="67" left="65" bottom="80" right="69"/>
+				<rect top="67" left="75" bottom="80" right="81"/>
+				<rect top="67" left="86" bottom="80" right="92"/>
+				<rect top="67" left="97" bottom="80" right="102"/>
+				<rect top="67" left="108" bottom="80" right="112"/>
+				<rect top="67" left="119" bottom="80" right="123"/>
+				<rect top="67" left="130" bottom="80" right="135"/>
+				<rect top="67" left="142" bottom="80" right="146"/>
+				<rect top="67" left="152" bottom="80" right="157"/>
+				<rect top="67" left="163" bottom="80" right="169"/>
+				<rect top="67" left="174" bottom="80" right="180"/>
+				<rect top="67" left="185" bottom="80" right="191"/>
+				<rect top="67" left="196" bottom="80" right="201"/>
+				<rect top="89" left="31" bottom="102" right="37"/>
+				<rect top="89" left="42" bottom="102" right="48"/>
+				<rect top="89" left="53" bottom="102" right="59"/>
+				<rect top="89" left="64" bottom="102" right="70"/>
+				<rect top="89" left="75" bottom="102" right="80"/>
+				<rect top="89" left="87" bottom="102" right="91"/>
+				<rect top="89" left="98" bottom="102" right="102"/>
+				<rect top="89" left="109" bottom="102" right="113"/>
+				<rect top="89" left="120" bottom="102" right="124"/>
+				<rect top="89" left="131" bottom="102" right="135"/>
+				<rect top="89" left="142" bottom="102" right="146"/>
+				<rect top="89" left="153" bottom="102" right="157"/>
+				<rect top="89" left="164" bottom="102" right="167"/>
+				<rect top="89" left="175" bottom="102" right="178"/>
+				<rect top="89" left="186" bottom="102" right="189"/>
+				<rect top="89" left="197" bottom="102" right="200"/>
+				<rect top="111" left="31" bottom="124" right="36"/>
+				<rect top="111" left="42" bottom="124" right="47"/>
+				<rect top="111" left="53" bottom="124" right="59"/>
+				<rect top="111" left="64" bottom="124" right="69"/>
+				<rect top="111" left="75" bottom="124" right="80"/>
+				<rect top="111" left="86" bottom="124" right="92"/>
+				<rect top="111" left="98" bottom="124" right="102"/>
+				<rect top="133" left="32" bottom="146" right="36"/>
+				<rect top="133" left="42" bottom="146" right="49"/>
+				<rect top="133" left="53" bottom="146" right="58"/>
+				<rect top="133" left="65" bottom="146" right="69"/>
+				<rect top="133" left="75" bottom="146" right="81"/>
+				<rect top="133" left="88" bottom="146" right="90"/>
+				<rect top="133" left="97" bottom="146" right="103"/>
+				<rect top="133" left="111" bottom="146" right="113"/>
+				<rect top="133" left="120" bottom="146" right="124"/>
+				<rect top="133" left="131" bottom="146" right="135"/>
+				<rect top="133" left="142" bottom="146" right="146"/>
+				<rect top="133" left="152" bottom="146" right="158"/>
+				<rect top="133" left="164" bottom="146" right="167"/>
+				<rect top="133" left="175" bottom="146" right="178"/>
+				<rect top="133" left="185" bottom="146" right="191"/>
+				<rect top="133" left="204" bottom="146" right="205"/>
+			</FontLetters>
+			<FontFont parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<FontShadowOffset x="1" y="1"/>
+		</Font>
+		<Font name="halfnormal" id="4" order="3" lastModified="-1" FontAlphabet="0123456789:;,-.?ABCDEFGHIJKLMNOPQRSTUVWXYZ&lt;=&gt;/\!abcdefghijklmnopqrstuvwxyz{}()[]ÜÄÖüäöß&quot;#$%&amp;'~|*+^_`´@" FontLetterSpacing="0" VerticalLetterSpacing="-4" FontSpaceWidth="4" FontAutoLineBreak="T" FontLineWidth="320" FontKerning="" FontTrueTypeFont="F" FontTrueTypeFontPath="" FontSize="12.000000" FontColor="16777215" FontBorder="T" FontBorderColor="0" FontBorderSize="2.000000" FontShadow="T">
+			<FontSprite name="" pause="-1" path="fonts/HalfHuman_ben0biFont.png" Transparency="-1">
+				<position x="0" y="0"/>
+			</FontSprite>
+			<FontLetters>
+				<rect top="1" left="31" bottom="14" right="36"/>
+				<rect top="1" left="43" bottom="14" right="46"/>
+				<rect top="1" left="53" bottom="14" right="59"/>
+				<rect top="1" left="64" bottom="14" right="69"/>
+				<rect top="1" left="75" bottom="14" right="80"/>
+				<rect top="1" left="86" bottom="14" right="91"/>
+				<rect top="1" left="97" bottom="14" right="103"/>
+				<rect top="1" left="108" bottom="14" right="113"/>
+				<rect top="1" left="119" bottom="14" right="125"/>
+				<rect top="1" left="130" bottom="14" right="135"/>
+				<rect top="1" left="143" bottom="14" right="145"/>
+				<rect top="1" left="153" bottom="14" right="156"/>
+				<rect top="1" left="164" bottom="14" right="167"/>
+				<rect top="1" left="175" bottom="14" right="179"/>
+				<rect top="1" left="186" bottom="14" right="188"/>
+				<rect top="1" left="196" bottom="14" right="201"/>
+				<rect top="23" left="31" bottom="36" right="36"/>
+				<rect top="23" left="42" bottom="36" right="48"/>
+				<rect top="23" left="54" bottom="36" right="58"/>
+				<rect top="23" left="65" bottom="36" right="69"/>
+				<rect top="23" left="76" bottom="36" right="80"/>
+				<rect top="23" left="86" bottom="36" right="92"/>
+				<rect top="23" left="97" bottom="36" right="102"/>
+				<rect top="23" left="108" bottom="36" right="112"/>
+				<rect top="23" left="120" bottom="36" right="124"/>
+				<rect top="23" left="130" bottom="36" right="135"/>
+				<rect top="23" left="141" bottom="36" right="146"/>
+				<rect top="23" left="152" bottom="36" right="157"/>
+				<rect top="23" left="163" bottom="36" right="169"/>
+				<rect top="23" left="174" bottom="36" right="180"/>
+				<rect top="23" left="185" bottom="36" right="190"/>
+				<rect top="23" left="196" bottom="36" right="201"/>
+				<rect top="45" left="31" bottom="58" right="36"/>
+				<rect top="45" left="42" bottom="58" right="48"/>
+				<rect top="45" left="53" bottom="58" right="58"/>
+				<rect top="45" left="64" bottom="58" right="70"/>
+				<rect top="45" left="75" bottom="58" right="80"/>
+				<rect top="45" left="87" bottom="58" right="91"/>
+				<rect top="45" left="97" bottom="58" right="103"/>
+				<rect top="45" left="109" bottom="58" right="113"/>
+				<rect top="45" left="119" bottom="58" right="124"/>
+				<rect top="45" left="131" bottom="58" right="135"/>
+				<rect top="45" left="142" bottom="58" right="146"/>
+				<rect top="45" left="152" bottom="58" right="157"/>
+				<rect top="45" left="164" bottom="58" right="168"/>
+				<rect top="45" left="175" bottom="58" right="179"/>
+				<rect top="45" left="186" bottom="58" right="190"/>
+				<rect top="45" left="197" bottom="58" right="199"/>
+				<rect top="67" left="31" bottom="80" right="36"/>
+				<rect top="67" left="42" bottom="80" right="47"/>
+				<rect top="67" left="54" bottom="80" right="58"/>
+				<rect top="67" left="64" bottom="80" right="69"/>
+				<rect top="67" left="75" bottom="80" right="81"/>
+				<rect top="67" left="87" bottom="80" right="91"/>
+				<rect top="67" left="97" bottom="80" right="102"/>
+				<rect top="67" left="108" bottom="80" right="113"/>
+				<rect top="67" left="119" bottom="80" right="123"/>
+				<rect top="67" left="131" bottom="80" right="134"/>
+				<rect top="67" left="142" bottom="80" right="146"/>
+				<rect top="67" left="154" bottom="80" right="156"/>
+				<rect top="67" left="163" bottom="80" right="169"/>
+				<rect top="67" left="174" bottom="80" right="179"/>
+				<rect top="67" left="185" bottom="80" right="191"/>
+				<rect top="67" left="196" bottom="80" right="201"/>
+				<rect top="89" left="31" bottom="102" right="37"/>
+				<rect top="89" left="43" bottom="102" right="47"/>
+				<rect top="89" left="53" bottom="102" right="59"/>
+				<rect top="89" left="65" bottom="102" right="69"/>
+				<rect top="89" left="75" bottom="102" right="80"/>
+				<rect top="89" left="86" bottom="102" right="91"/>
+				<rect top="89" left="98" bottom="102" right="102"/>
+				<rect top="89" left="109" bottom="102" right="113"/>
+				<rect top="89" left="120" bottom="102" right="124"/>
+				<rect top="89" left="130" bottom="102" right="135"/>
+				<rect top="89" left="142" bottom="102" right="146"/>
+				<rect top="89" left="153" bottom="102" right="157"/>
+				<rect top="89" left="164" bottom="102" right="167"/>
+				<rect top="89" left="175" bottom="102" right="178"/>
+				<rect top="89" left="186" bottom="102" right="189"/>
+				<rect top="89" left="197" bottom="102" right="200"/>
+				<rect top="111" left="31" bottom="124" right="36"/>
+				<rect top="111" left="42" bottom="124" right="47"/>
+				<rect top="111" left="53" bottom="124" right="58"/>
+				<rect top="111" left="64" bottom="124" right="69"/>
+				<rect top="111" left="75" bottom="124" right="80"/>
+				<rect top="111" left="86" bottom="124" right="92"/>
+				<rect top="111" left="98" bottom="124" right="102"/>
+				<rect top="133" left="32" bottom="146" right="36"/>
+				<rect top="133" left="42" bottom="146" right="49"/>
+				<rect top="133" left="53" bottom="146" right="58"/>
+				<rect top="133" left="65" bottom="146" right="69"/>
+				<rect top="133" left="75" bottom="146" right="81"/>
+				<rect top="133" left="88" bottom="146" right="90"/>
+				<rect top="133" left="97" bottom="146" right="103"/>
+				<rect top="133" left="111" bottom="146" right="113"/>
+				<rect top="133" left="120" bottom="146" right="124"/>
+				<rect top="133" left="131" bottom="146" right="135"/>
+				<rect top="133" left="142" bottom="146" right="146"/>
+				<rect top="133" left="152" bottom="146" right="158"/>
+				<rect top="133" left="164" bottom="146" right="167"/>
+				<rect top="133" left="175" bottom="146" right="178"/>
+				<rect top="133" left="185" bottom="146" right="191"/>
+				<rect top="133" left="204" bottom="146" right="205"/>
+			</FontLetters>
+			<FontFont parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<FontShadowOffset x="1" y="1"/>
+		</Font>
+	</Fonts>
+	<Scenes newId="3" versionedId="-1" tableId="4">
+		<Scene name="Start menu" id="0" order="0" lastModified="-1" SceneBackgroundMusic="audio/music/Eric_Matyas/Cosmic-Switchboard_Looping.ogg" SceneContinueMusic="F" CDTrack="-1" SceneMusicVolume="0" SceneMusicBalance="0" SceneScrollOnEdges="F" SceneIsMenu="T" SceneSavegameScrollStep="1" SceneLightMap="" SceneSavegameScreenshot="">
+			<SceneSprite name="" pause="-1" path="gui/Room_MainMenu.png" Transparency="-1">
+				<position x="0" y="0"/>
+			</SceneSprite>
+			<SceneName parentLink="T" id="0" tableId="14" LinkAny="F"/>
+			<SceneObjects>
+				<Link parentLink="T" id="0" tableId="6" LinkAny="F"/>
+				<Link parentLink="T" id="1" tableId="6" LinkAny="F"/>
+				<Link parentLink="T" id="2" tableId="6" LinkAny="F"/>
+				<Link parentLink="T" id="5" tableId="6" LinkAny="F"/>
+				<Link parentLink="T" id="6" tableId="6" LinkAny="F"/>
+			</SceneObjects>
+			<SceneCursor parentLink="F" id="0" tableId="15" LinkAny="F"/>
+			<SceneSavegameAreas>
+			</SceneSavegameAreas>
+			<SceneValues>
+			</SceneValues>
+			<SceneConditions>
+			</SceneConditions>
+			<SceneActions>
+			</SceneActions>
+			<SceneSavegameFont parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<SceneParticleSystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<SceneScrollableArea top="0" left="0" bottom="-1" right="-1"/>
+			<SceneWaySystems>
+			</SceneWaySystems>
+			<SceneCurrentWaySystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<SceneActionAreas>
+			</SceneActionAreas>
+			<SceneAudioBusses>
+			</SceneAudioBusses>
+			<SceneTestCharacter parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<SceneCurves>
+			</SceneCurves>
+		</Scene>
+		<Scene name="UFO_Cockpit" id="1" order="1" lastModified="-1" SceneBackgroundMusic="audio/music/Eric_Matyas/Cosmic-Switchboard_Looping.ogg" SceneContinueMusic="T" CDTrack="-1" SceneMusicVolume="0" SceneMusicBalance="0" SceneScrollOnEdges="F" SceneIsMenu="F" SceneSavegameScrollStep="1" SceneLightMap="" SceneSavegameScreenshot="">
+			<SceneSprite name="" pause="-1" path="rooms/room_ufo_cockpit/Room_Spaceship_Cockpit.png" Transparency="-1">
+				<position x="0" y="0"/>
+			</SceneSprite>
+			<SceneName parentLink="T" id="1" tableId="14" LinkAny="F"/>
+			<SceneObjects>
+				<Link parentLink="T" id="7" tableId="6" LinkAny="F"/>
+				<Link parentLink="T" id="8" tableId="6" LinkAny="F"/>
+				<Link parentLink="T" id="9" tableId="6" LinkAny="F"/>
+				<Link parentLink="T" id="12" tableId="6" LinkAny="F"/>
+			</SceneObjects>
+			<SceneCursor parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<SceneSavegameAreas>
+			</SceneSavegameAreas>
+			<SceneValues>
+			</SceneValues>
+			<SceneConditions>
+			</SceneConditions>
+			<SceneActions>
+				<Link parentLink="T" id="15" tableId="7" LinkAny="F"/>
+			</SceneActions>
+			<SceneSavegameFont parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<SceneParticleSystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<SceneScrollableArea top="0" left="0" bottom="-1" right="-1"/>
+			<SceneWaySystems>
+				<Link parentLink="T" id="1" tableId="29" LinkAny="F"/>
+			</SceneWaySystems>
+			<SceneCurrentWaySystem parentLink="F" id="1" tableId="29" LinkAny="F"/>
+			<SceneActionAreas>
+			</SceneActionAreas>
+			<SceneAudioBusses>
+			</SceneAudioBusses>
+			<SceneTestCharacter parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<SceneCurves>
+			</SceneCurves>
+		</Scene>
+		<Scene name="UFO Maschinenraum" id="2" order="2" lastModified="-1" SceneBackgroundMusic="" SceneContinueMusic="F" CDTrack="-1" SceneMusicVolume="0" SceneMusicBalance="0" SceneScrollOnEdges="F" SceneIsMenu="F" SceneSavegameScrollStep="1" SceneLightMap="" SceneSavegameScreenshot="">
+			<SceneSprite name="" pause="-1" path="rooms/room_ufo_engine/Room_Spaceship_Maschinenraum_BG.png" Transparency="-1">
+				<position x="0" y="0"/>
+			</SceneSprite>
+			<SceneName parentLink="T" id="19" tableId="14" LinkAny="F"/>
+			<SceneObjects>
+				<Link parentLink="T" id="10" tableId="6" LinkAny="F"/>
+				<Link parentLink="T" id="11" tableId="6" LinkAny="F"/>
+				<Link parentLink="T" id="13" tableId="6" LinkAny="F"/>
+				<Link parentLink="T" id="14" tableId="6" LinkAny="F"/>
+			</SceneObjects>
+			<SceneCursor parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<SceneSavegameAreas>
+			</SceneSavegameAreas>
+			<SceneValues>
+			</SceneValues>
+			<SceneConditions>
+			</SceneConditions>
+			<SceneActions>
+			</SceneActions>
+			<SceneSavegameFont parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<SceneParticleSystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<SceneScrollableArea top="0" left="0" bottom="-1" right="-1"/>
+			<SceneWaySystems>
+				<Link parentLink="T" id="2" tableId="29" LinkAny="F"/>
+			</SceneWaySystems>
+			<SceneCurrentWaySystem parentLink="F" id="2" tableId="29" LinkAny="F"/>
+			<SceneActionAreas>
+			</SceneActionAreas>
+			<SceneAudioBusses>
+			</SceneAudioBusses>
+			<SceneTestCharacter parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<SceneCurves>
+			</SceneCurves>
+		</Scene>
+	</Scenes>
+	<Points newId="5" versionedId="-1" tableId="5">
+		<Point name="Punkt0" id="0" order="0" lastModified="-1" PointSize="200">
+			<PointPosition x="155" y="181"/>
+			<PointRelations>
+				<Link parentLink="F" id="1" tableId="5" LinkAny="F"/>
+			</PointRelations>
+		</Point>
+		<Point name="Punkt1" id="1" order="1" lastModified="-1" PointSize="125">
+			<PointPosition x="159" y="130"/>
+			<PointRelations>
+				<Link parentLink="F" id="0" tableId="5" LinkAny="F"/>
+			</PointRelations>
+		</Point>
+		<Point name="Punkt2" id="2" order="2" lastModified="-1" PointSize="-1">
+			<PointPosition x="63" y="191"/>
+			<PointRelations>
+				<Link parentLink="F" id="3" tableId="5" LinkAny="F"/>
+			</PointRelations>
+		</Point>
+		<Point name="Punkt3" id="3" order="3" lastModified="-1" PointSize="-1">
+			<PointPosition x="283" y="186"/>
+			<PointRelations>
+				<Link parentLink="F" id="2" tableId="5" LinkAny="F"/>
+				<Link parentLink="F" id="4" tableId="5" LinkAny="F"/>
+			</PointRelations>
+		</Point>
+		<Point name="Punkt4" id="4" order="4" lastModified="-1" PointSize="-1">
+			<PointPosition x="275" y="163"/>
+			<PointRelations>
+				<Link parentLink="F" id="3" tableId="5" LinkAny="F"/>
+			</PointRelations>
+		</Point>
+	</Points>
+	<Objects newId="15" versionedId="-1" tableId="6">
+		<Object name="Start game (active)" id="0" order="0" lastModified="-1" ObjectDirection="-1" ObjectCenter="61" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="104" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
+			<ObjectName parentLink="T" id="7" tableId="14" LinkAny="F"/>
+			<ObjectPolygon>
+				<point x="128" y="50"/>
+				<point x="193" y="50"/>
+				<point x="193" y="62"/>
+				<point x="127" y="63"/>
+			</ObjectPolygon>
+			<ObjectCondition parentLink="F" id="0" tableId="10" LinkAny="F"/>
+			<ObjectSprite parentLink="T" id="4" tableId="13" LinkAny="F"/>
+			<ObjectAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectActions>
+				<Link parentLink="T" id="0" tableId="7" LinkAny="F"/>
+				<Link parentLink="T" id="3" tableId="7" LinkAny="F"/>
+			</ObjectActions>
+			<ObjectConditions>
+				<Link parentLink="T" id="0" tableId="10" LinkAny="F"/>
+			</ObjectConditions>
+			<ObjectAnimations>
+			</ObjectAnimations>
+			<ObjectValues>
+			</ObjectValues>
+			<ObjectPosition x="0" y="0"/>
+			<ObjectParticleSystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimationPos x="0" y="0"/>
+			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</Object>
+		<Object name="Start game (inactive)" id="1" order="1" lastModified="-1" ObjectDirection="-1" ObjectCenter="61" ObjectIsItem="F" ObjectConditionNegate="T" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
+			<ObjectName parentLink="T" id="8" tableId="14" LinkAny="F"/>
+			<ObjectPolygon>
+				<point x="129" y="50"/>
+				<point x="192" y="51"/>
+				<point x="191" y="63"/>
+				<point x="128" y="63"/>
+			</ObjectPolygon>
+			<ObjectCondition parentLink="F" id="0" tableId="10" LinkAny="F"/>
+			<ObjectSprite parentLink="T" id="5" tableId="13" LinkAny="F"/>
+			<ObjectAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectActions>
+				<Link parentLink="T" id="2" tableId="7" LinkAny="F"/>
+			</ObjectActions>
+			<ObjectConditions>
+			</ObjectConditions>
+			<ObjectAnimations>
+			</ObjectAnimations>
+			<ObjectValues>
+			</ObjectValues>
+			<ObjectPosition x="0" y="0"/>
+			<ObjectParticleSystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimationPos x="0" y="0"/>
+			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</Object>
+		<Object name="Quit game (active)" id="2" order="2" lastModified="-1" ObjectDirection="-1" ObjectCenter="167" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
+			<ObjectName parentLink="T" id="9" tableId="14" LinkAny="F"/>
+			<ObjectPolygon>
+				<point x="-2" y="181"/>
+				<point x="13" y="171"/>
+				<point x="31" y="170"/>
+				<point x="49" y="174"/>
+				<point x="63" y="186"/>
+				<point x="65" y="201"/>
+				<point x="0" y="204"/>
+			</ObjectPolygon>
+			<ObjectCondition parentLink="F" id="1" tableId="10" LinkAny="F"/>
+			<ObjectSprite parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectActions>
+				<Link parentLink="T" id="1" tableId="7" LinkAny="F"/>
+				<Link parentLink="T" id="5" tableId="7" LinkAny="F"/>
+			</ObjectActions>
+			<ObjectConditions>
+				<Link parentLink="T" id="1" tableId="10" LinkAny="F"/>
+			</ObjectConditions>
+			<ObjectAnimations>
+				<Link parentLink="T" id="24" tableId="9" LinkAny="F"/>
+			</ObjectAnimations>
+			<ObjectValues>
+			</ObjectValues>
+			<ObjectPosition x="0" y="0"/>
+			<ObjectParticleSystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimationPos x="0" y="0"/>
+			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</Object>
+		<Object name="Hintergrundanimation" id="5" order="5" lastModified="-1" ObjectDirection="-1" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
+			<ObjectName parentLink="T" id="14" tableId="14" LinkAny="F"/>
+			<ObjectPolygon>
+			</ObjectPolygon>
+			<ObjectCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSprite parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectAnimation parentLink="F" id="21" tableId="9" LinkAny="F"/>
+			<ObjectActions>
+			</ObjectActions>
+			<ObjectConditions>
+			</ObjectConditions>
+			<ObjectAnimations>
+				<Link parentLink="T" id="21" tableId="9" LinkAny="F"/>
+			</ObjectAnimations>
+			<ObjectValues>
+			</ObjectValues>
+			<ObjectPosition x="0" y="0"/>
+			<ObjectParticleSystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimationPos x="0" y="0"/>
+			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</Object>
+		<Object name="Vordergrund" id="6" order="4" lastModified="-1" ObjectDirection="-1" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
+			<ObjectName parentLink="T" id="15" tableId="14" LinkAny="F"/>
+			<ObjectPolygon>
+			</ObjectPolygon>
+			<ObjectCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSprite parentLink="T" id="10" tableId="13" LinkAny="F"/>
+			<ObjectAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectActions>
+			</ObjectActions>
+			<ObjectConditions>
+			</ObjectConditions>
+			<ObjectAnimations>
+			</ObjectAnimations>
+			<ObjectValues>
+			</ObjectValues>
+			<ObjectPosition x="0" y="0"/>
+			<ObjectParticleSystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimationPos x="0" y="0"/>
+			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</Object>
+		<Object name="BGAnimation" id="7" order="3" lastModified="-1" ObjectDirection="-1" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
+			<ObjectName parentLink="T" id="16" tableId="14" LinkAny="F"/>
+			<ObjectPolygon>
+			</ObjectPolygon>
+			<ObjectCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSprite parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectAnimation parentLink="F" id="22" tableId="9" LinkAny="F"/>
+			<ObjectActions>
+			</ObjectActions>
+			<ObjectConditions>
+			</ObjectConditions>
+			<ObjectAnimations>
+				<Link parentLink="T" id="22" tableId="9" LinkAny="F"/>
+			</ObjectAnimations>
+			<ObjectValues>
+			</ObjectValues>
+			<ObjectPosition x="0" y="0"/>
+			<ObjectParticleSystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimationPos x="0" y="0"/>
+			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</Object>
+		<Object name="Vordergrund" id="8" order="1" lastModified="-1" ObjectDirection="-1" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
+			<ObjectName parentLink="T" id="17" tableId="14" LinkAny="F"/>
+			<ObjectPolygon>
+			</ObjectPolygon>
+			<ObjectCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSprite parentLink="T" id="11" tableId="13" LinkAny="F"/>
+			<ObjectAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectActions>
+			</ObjectActions>
+			<ObjectConditions>
+			</ObjectConditions>
+			<ObjectAnimations>
+			</ObjectAnimations>
+			<ObjectValues>
+			</ObjectValues>
+			<ObjectPosition x="0" y="0"/>
+			<ObjectParticleSystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimationPos x="0" y="0"/>
+			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</Object>
+		<Object name="StartPoint" id="9" order="0" lastModified="-1" ObjectDirection="45" ObjectCenter="6" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
+			<ObjectName parentLink="T" id="18" tableId="14" LinkAny="F"/>
+			<ObjectPolygon>
+			</ObjectPolygon>
+			<ObjectCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSprite parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectActions>
+			</ObjectActions>
+			<ObjectConditions>
+			</ObjectConditions>
+			<ObjectAnimations>
+			</ObjectAnimations>
+			<ObjectValues>
+			</ObjectValues>
+			<ObjectPosition x="120" y="184"/>
+			<ObjectParticleSystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimationPos x="0" y="0"/>
+			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</Object>
+		<Object name="Foreground" id="10" order="1" lastModified="-1" ObjectDirection="-1" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
+			<ObjectName parentLink="T" id="20" tableId="14" LinkAny="F"/>
+			<ObjectPolygon>
+			</ObjectPolygon>
+			<ObjectCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSprite parentLink="T" id="13" tableId="13" LinkAny="F"/>
+			<ObjectAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectActions>
+			</ObjectActions>
+			<ObjectConditions>
+			</ObjectConditions>
+			<ObjectAnimations>
+			</ObjectAnimations>
+			<ObjectValues>
+			</ObjectValues>
+			<ObjectPosition x="0" y="0"/>
+			<ObjectParticleSystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimationPos x="0" y="0"/>
+			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</Object>
+		<Object name="BGAnimation" id="11" order="2" lastModified="-1" ObjectDirection="-1" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
+			<ObjectName parentLink="T" id="21" tableId="14" LinkAny="F"/>
+			<ObjectPolygon>
+			</ObjectPolygon>
+			<ObjectCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSprite parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectAnimation parentLink="F" id="25" tableId="9" LinkAny="F"/>
+			<ObjectActions>
+				<Link parentLink="T" id="8" tableId="7" LinkAny="F"/>
+			</ObjectActions>
+			<ObjectConditions>
+			</ObjectConditions>
+			<ObjectAnimations>
+				<Link parentLink="T" id="25" tableId="9" LinkAny="F"/>
+			</ObjectAnimations>
+			<ObjectValues>
+			</ObjectValues>
+			<ObjectPosition x="0" y="0"/>
+			<ObjectParticleSystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimationPos x="0" y="0"/>
+			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</Object>
+		<Object name="Zum_Maschinenraum" id="12" order="2" lastModified="-1" ObjectDirection="180" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
+			<ObjectName parentLink="T" id="29" tableId="14" LinkAny="F"/>
+			<ObjectPolygon>
+				<point x="60" y="198"/>
+				<point x="54" y="185"/>
+				<point x="46" y="181"/>
+				<point x="45" y="157"/>
+				<point x="39" y="158"/>
+				<point x="36" y="162"/>
+				<point x="17" y="175"/>
+				<point x="9" y="176"/>
+				<point x="6" y="172"/>
+				<point x="5" y="183"/>
+				<point x="0" y="189"/>
+				<point x="1" y="199"/>
+			</ObjectPolygon>
+			<ObjectCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSprite parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectActions>
+				<Link parentLink="T" id="10" tableId="7" LinkAny="F"/>
+				<Link parentLink="T" id="11" tableId="7" LinkAny="F"/>
+				<Link parentLink="T" id="12" tableId="7" LinkAny="F"/>
+				<Link parentLink="T" id="14" tableId="7" LinkAny="F"/>
+			</ObjectActions>
+			<ObjectConditions>
+			</ObjectConditions>
+			<ObjectAnimations>
+			</ObjectAnimations>
+			<ObjectValues>
+			</ObjectValues>
+			<ObjectPosition x="70" y="188"/>
+			<ObjectParticleSystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimationPos x="0" y="0"/>
+			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</Object>
+		<Object name="Stehplatz_Nach_Abstieg" id="13" order="0" lastModified="-1" ObjectDirection="-1" ObjectCenter="198" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
+			<ObjectName parentLink="T" id="31" tableId="14" LinkAny="F"/>
+			<ObjectPolygon>
+				<point x="52" y="71"/>
+			</ObjectPolygon>
+			<ObjectCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSprite parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectActions>
+			</ObjectActions>
+			<ObjectConditions>
+			</ObjectConditions>
+			<ObjectAnimations>
+			</ObjectAnimations>
+			<ObjectValues>
+			</ObjectValues>
+			<ObjectPosition x="32" y="184"/>
+			<ObjectParticleSystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimationPos x="0" y="0"/>
+			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</Object>
+		<Object name="Nach_Oben" id="14" order="3" lastModified="-1" ObjectDirection="180" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
+			<ObjectName parentLink="T" id="45" tableId="14" LinkAny="F"/>
+			<ObjectPolygon>
+				<point x="5" y="114"/>
+				<point x="-10000" y="-10000"/>
+				<point x="45" y="90"/>
+				<point x="44" y="0"/>
+				<point x="6" y="0"/>
+				<point x="8" y="114"/>
+				<point x="32" y="100"/>
+			</ObjectPolygon>
+			<ObjectCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSprite parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectActions>
+				<Link parentLink="T" id="16" tableId="7" LinkAny="F"/>
+				<Link parentLink="T" id="17" tableId="7" LinkAny="F"/>
+				<Link parentLink="T" id="18" tableId="7" LinkAny="F"/>
+				<Link parentLink="T" id="19" tableId="7" LinkAny="F"/>
+			</ObjectActions>
+			<ObjectConditions>
+			</ObjectConditions>
+			<ObjectAnimations>
+			</ObjectAnimations>
+			<ObjectValues>
+			</ObjectValues>
+			<ObjectPosition x="65" y="186"/>
+			<ObjectParticleSystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimationPos x="0" y="0"/>
+			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</Object>
+	</Objects>
+	<Actions newId="20" versionedId="-1" tableId="7">
+		<Action name="Linksklick" id="0" order="0" lastModified="-1" ActionExecutionType="7">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="0" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
+		<Action name="Linksklick" id="1" order="0" lastModified="-1" ActionExecutionType="7">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="2" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
+		<Action name="Mausbewegung in Objektbereich" id="2" order="0" lastModified="-1" ActionExecutionType="1">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="3" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="15" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
+		<Action name="Mausbewegung aus Objektbereich" id="3" order="1" lastModified="-1" ActionExecutionType="2">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="4" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
+		<Action name="Mausbewegung aus Objektbereich" id="5" order="1" lastModified="-1" ActionExecutionType="2">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="6" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
+		<Action name="Escape" id="7" order="0" lastModified="-1" ActionExecutionType="27">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="8" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
+		<Action name="Aufruf durch andere Aktion" id="8" order="0" lastModified="-1" ActionExecutionType="5">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="9" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="10" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="13" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
+		<Action name="Mausbewegung in Objektbereich" id="10" order="3" lastModified="-1" ActionExecutionType="1">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="21" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
+		<Action name="Mausbewegung aus Objektbereich" id="11" order="4" lastModified="-1" ActionExecutionType="2">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="22" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
+		<Action name="Rechtsklick (sofort)" id="12" order="1" lastModified="-1" ActionExecutionType="16">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="25" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
+		<Action name="'left_click' angewandt" id="14" order="2" lastModified="-1" ActionExecutionType="6">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="0" tableId="2" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="29" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
+		<Action name="Bei Beginn der Kulisse" id="15" order="0" lastModified="-1" ActionExecutionType="31">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="30" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="31" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
+		<Action name="Mausbewegung in Objektbereich" id="16" order="0" lastModified="-1" ActionExecutionType="1">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="32" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
+		<Action name="Mausbewegung aus Objektbereich" id="17" order="1" lastModified="-1" ActionExecutionType="2">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="33" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
+		<Action name="Rechtsklick" id="18" order="2" lastModified="-1" ActionExecutionType="0">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="34" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
+		<Action name="'left_click' angewandt" id="19" order="3" lastModified="-1" ActionExecutionType="6">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="0" tableId="2" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="35" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
+	</Actions>
+	<ActionParts newId="36" versionedId="-1" tableId="8">
+		<ActionPart name="Zu Kulisse von Person 'Aktuelle Person' wechseln" id="0" order="0" lastModified="-1" ActionPartCommand="54" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Bedingung 'NewGame_MenuText' auf falsch setzen" id="1" order="1" lastModified="-1" ActionPartCommand="139" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="0" tableId="10" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Spiel beenden" id="2" order="0" lastModified="-1" ActionPartCommand="55" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Bedingung 'Bedingung0' auf wahr setzen" id="3" order="1" lastModified="-1" ActionPartCommand="139" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="0" tableId="10" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Bedingung 'NewGame_MenuText' auf falsch setzen" id="4" order="0" lastModified="-1" ActionPartCommand="139" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="0" tableId="10" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Bedingung 'Bedingung0' auf falsch setzen" id="6" order="0" lastModified="-1" ActionPartCommand="139" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="1" tableId="10" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Menü 'Start menu' zeigen" id="8" order="0" lastModified="-1" ActionPartCommand="46" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="0" tableId="4" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Objekt 'BGAnimation' nach (320,0) verschieben" id="9" order="0" lastModified="-1" ActionPartCommand="159" ActionPartPath="" ActionPartInt="320" ActionPartAltInt="0" ActionPartAltInt2="2000" ActionPartString="">
+			<ActionPartLink parentLink="F" id="11" tableId="6" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Objekt 'BGAnimation' nach (0,0) verschieben" id="10" order="1" lastModified="-1" ActionPartCommand="159" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="11" tableId="6" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Springe zu Aktionsteil #1" id="13" order="2" lastModified="-1" ActionPartCommand="78" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="1" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Text für 'Start game (active)' anzeigen" id="15" order="0" lastModified="-1" ActionPartCommand="155" ActionPartPath="" ActionPartInt="160" ActionPartAltInt="50" ActionPartAltInt2="1" ActionPartString="(3,1)">
+			<ActionPartLink parentLink="T" id="26" tableId="14" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="0" tableId="6" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Cursor 'GoTo_DOWN' setzen" id="21" order="0" lastModified="-1" ActionPartCommand="94" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="3" tableId="15" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Cursor 'Cross' setzen" id="22" order="0" lastModified="-1" ActionPartCommand="94" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="0" tableId="15" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Character_Klaus: Da gehts nach unten." id="25" order="0" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="T" id="37" tableId="14" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Zu Kulisse 'UFO Maschinenraum' wechseln" id="29" order="0" lastModified="-1" ActionPartCommand="10" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="13" tableId="6" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Character_Klaus: Wo muss ich jetzt was putzen?" id="30" order="0" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="T" id="43" tableId="14" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Character_Klaus: Niemand hier..." id="31" order="1" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="T" id="44" tableId="14" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Cursor 'GoTo_UP' setzen" id="32" order="0" lastModified="-1" ActionPartCommand="94" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="4" tableId="15" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Cursor 'Cross' setzen" id="33" order="0" lastModified="-1" ActionPartCommand="94" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="0" tableId="15" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Character_Klaus: Upwards." id="34" order="0" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="T" id="48" tableId="14" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Zu Kulisse 'UFO_Cockpit' wechseln" id="35" order="0" lastModified="-1" ActionPartCommand="10" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="12" tableId="6" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+	</ActionParts>
+	<Animations newId="32" versionedId="-1" tableId="9">
+		<Animation name="front" id="0" order="3" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="270" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
+			<AnimationPosition x="0" y="0"/>
+			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationSprites>
+				<sprite name="" pause="-1" path="chars/char_klaus/Character_Klaus_Left_Idle_1.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+			</AnimationSprites>
+			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationCenter x="8" y="47"/>
+			<AnimationPropertyFrames>
+			</AnimationPropertyFrames>
+			<AnimationWalkSteps>
+			</AnimationWalkSteps>
+			<AnimationPauses>
+			</AnimationPauses>
+		</Animation>
+		<Animation name="back" id="1" order="1" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="90" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
+			<AnimationPosition x="0" y="0"/>
+			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationSprites>
+				<sprite name="" pause="-1" path="chars/char_klaus/Character_Klaus_Right_Idle_1.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+			</AnimationSprites>
+			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationCenter x="13" y="47"/>
+			<AnimationPropertyFrames>
+			</AnimationPropertyFrames>
+			<AnimationWalkSteps>
+			</AnimationWalkSteps>
+			<AnimationPauses>
+			</AnimationPauses>
+		</Animation>
+		<Animation name="left" id="2" order="2" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="180" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
+			<AnimationPosition x="0" y="0"/>
+			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationSprites>
+				<sprite name="" pause="-1" path="chars/char_klaus/Character_Klaus_Left_Idle_1.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+			</AnimationSprites>
+			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationCenter x="12" y="49"/>
+			<AnimationPropertyFrames>
+			</AnimationPropertyFrames>
+			<AnimationWalkSteps>
+			</AnimationWalkSteps>
+			<AnimationPauses>
+			</AnimationPauses>
+		</Animation>
+		<Animation name="right" id="3" order="0" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="0" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
+			<AnimationPosition x="0" y="0"/>
+			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationSprites>
+				<sprite name="" pause="-1" path="chars/char_klaus/Character_Klaus_Right_Idle_1.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+			</AnimationSprites>
+			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationCenter x="13" y="47"/>
+			<AnimationPropertyFrames>
+			</AnimationPropertyFrames>
+			<AnimationWalkSteps>
+			</AnimationWalkSteps>
+			<AnimationPauses>
+			</AnimationPauses>
+		</Animation>
+		<Animation name="front" id="4" order="3" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="270" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
+			<AnimationPosition x="0" y="0"/>
+			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationSprites>
+				<sprite name="" pause="-1" path="chars/char_klaus/Character_Klaus_Left_Idle_1.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+			</AnimationSprites>
+			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationCenter x="7" y="47"/>
+			<AnimationPropertyFrames>
+			</AnimationPropertyFrames>
+			<AnimationWalkSteps>
+			</AnimationWalkSteps>
+			<AnimationPauses>
+			</AnimationPauses>
+		</Animation>
+		<Animation name="back" id="5" order="1" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="90" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
+			<AnimationPosition x="0" y="0"/>
+			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationSprites>
+				<sprite name="" pause="-1" path="chars/char_klaus/Character_Klaus_Right_Idle_1.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+			</AnimationSprites>
+			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationCenter x="13" y="47"/>
+			<AnimationPropertyFrames>
+			</AnimationPropertyFrames>
+			<AnimationWalkSteps>
+			</AnimationWalkSteps>
+			<AnimationPauses>
+			</AnimationPauses>
+		</Animation>
+		<Animation name="left" id="6" order="2" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="180" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
+			<AnimationPosition x="0" y="0"/>
+			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationSprites>
+				<sprite name="" pause="-1" path="chars/char_klaus/Character_Klaus_Left_Idle_1.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+			</AnimationSprites>
+			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationCenter x="7" y="47"/>
+			<AnimationPropertyFrames>
+			</AnimationPropertyFrames>
+			<AnimationWalkSteps>
+			</AnimationWalkSteps>
+			<AnimationPauses>
+			</AnimationPauses>
+		</Animation>
+		<Animation name="right" id="7" order="0" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="0" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
+			<AnimationPosition x="0" y="0"/>
+			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationSprites>
+				<sprite name="" pause="-1" path="chars/char_klaus/Character_Klaus_Right_Idle_1.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+			</AnimationSprites>
+			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationCenter x="13" y="47"/>
+			<AnimationPropertyFrames>
+			</AnimationPropertyFrames>
+			<AnimationWalkSteps>
+			</AnimationWalkSteps>
+			<AnimationPauses>
+			</AnimationPauses>
+		</Animation>
+		<Animation name="Animation" id="10" order="10" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="200" AnimationDirection="-1" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
+			<AnimationPosition x="0" y="0"/>
+			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationSprites>
+				<sprite name="" pause="-1" path="gui/mouse_cursors/cur_default.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-31376" path="gui/mouse_cursors/cur_default_2.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+			</AnimationSprites>
+			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationCenter x="7" y="7"/>
+			<AnimationPropertyFrames>
+			</AnimationPropertyFrames>
+			<AnimationWalkSteps>
+			</AnimationWalkSteps>
+			<AnimationPauses>
+			</AnimationPauses>
+		</Animation>
+		<Animation name="Animation" id="11" order="11" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="-1" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
+			<AnimationPosition x="0" y="0"/>
+			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationSprites>
+				<sprite name="" pause="-1" path="gui/mouse_cursors/cur_default.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+			</AnimationSprites>
+			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationCenter x="7" y="7"/>
+			<AnimationPropertyFrames>
+			</AnimationPropertyFrames>
+			<AnimationWalkSteps>
+			</AnimationWalkSteps>
+			<AnimationPauses>
+			</AnimationPauses>
+		</Animation>
+		<Animation name="Animation" id="14" order="14" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="-1" AnimationMove="F" AnimationUseIndividualPause="T" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
+			<AnimationPosition x="0" y="0"/>
+			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationSprites>
+				<sprite name="" pause="2000" path="gui/mouse_cursors/cur_interact_EndFrame.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="50" path="gui/mouse_cursors/cur_interact_1.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="50" path="gui/mouse_cursors/cur_interact_2.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="50" path="gui/mouse_cursors/cur_interact_3.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="50" path="gui/mouse_cursors/cur_interact_4.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="50" path="gui/mouse_cursors/cur_interact_5.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+			</AnimationSprites>
+			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationCenter x="7" y="7"/>
+			<AnimationPropertyFrames>
+			</AnimationPropertyFrames>
+			<AnimationWalkSteps>
+			</AnimationWalkSteps>
+			<AnimationPauses>
+			</AnimationPauses>
+		</Animation>
+		<Animation name="Animation" id="15" order="15" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="-1" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
+			<AnimationPosition x="0" y="0"/>
+			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationSprites>
+				<sprite name="" pause="-1" path="gui/mouse_cursors/cur_interact_EndFrame.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+			</AnimationSprites>
+			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationCenter x="7" y="7"/>
+			<AnimationPropertyFrames>
+			</AnimationPropertyFrames>
+			<AnimationWalkSteps>
+			</AnimationWalkSteps>
+			<AnimationPauses>
+			</AnimationPauses>
+		</Animation>
+		<Animation name="Animation" id="18" order="18" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="1000" AnimationDirection="-1" AnimationMove="F" AnimationUseIndividualPause="T" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
+			<AnimationPosition x="0" y="0"/>
+			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationSprites>
+				<sprite name="" pause="50" path="gui/mouse_cursors/cur_lookat_1.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="50" path="gui/mouse_cursors/cur_lookat_2.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="50" path="gui/mouse_cursors/cur_lookat_3.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="7500" path="gui/mouse_cursors/cur_lookat_EndFrame.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="50" path="gui/mouse_cursors/cur_lookat_3.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="50" path="gui/mouse_cursors/cur_lookat_2.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+			</AnimationSprites>
+			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationCenter x="7" y="7"/>
+			<AnimationPropertyFrames>
+			</AnimationPropertyFrames>
+			<AnimationWalkSteps>
+			</AnimationWalkSteps>
+			<AnimationPauses>
+			</AnimationPauses>
+		</Animation>
+		<Animation name="Animation" id="19" order="19" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="-1" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
+			<AnimationPosition x="0" y="0"/>
+			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationSprites>
+				<sprite name="" pause="-1" path="gui/mouse_cursors/cur_lookat_1.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+			</AnimationSprites>
+			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationCenter x="7" y="7"/>
+			<AnimationPropertyFrames>
+			</AnimationPropertyFrames>
+			<AnimationWalkSteps>
+			</AnimationWalkSteps>
+			<AnimationPauses>
+			</AnimationPauses>
+		</Animation>
+		<Animation name="ErdAnimation" id="21" order="0" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="0" AnimationPause="1000" AnimationDirection="-1" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
+			<AnimationPosition x="0" y="0"/>
+			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationSprites>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_1.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_2.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_3.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_4.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_5.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_6.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_7.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_8.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_9.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_10.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_11.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_12.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_13.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_14.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_15.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_16.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_17.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_18.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_19.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_20.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_21.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_22.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_23.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_24.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_25.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_26.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_27.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_28.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_29.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_30.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_31.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_32.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_33.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_34.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_35.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_36.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_37.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_38.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_39.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_40.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_41.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_42.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_43.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_44.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_45.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_46.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_47.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_48.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_49.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_50.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_51.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_52.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_53.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_54.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_55.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_56.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_57.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_58.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_59.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_60.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_61.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_62.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_63.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_64.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_65.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_66.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_67.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_68.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_69.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_70.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_71.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_72.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_73.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_74.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_75.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_76.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_77.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_78.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_79.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_80.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_81.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_82.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_83.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_84.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_85.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_86.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_87.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_88.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_89.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_90.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_91.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_92.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_93.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_94.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_95.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_96.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_97.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_98.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_99.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_100.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_101.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_102.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_103.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_104.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_105.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_106.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_107.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_108.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_109.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_110.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_111.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_112.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_113.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_114.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_115.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_116.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_117.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_118.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_119.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_120.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+			</AnimationSprites>
+			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationCenter x="0" y="0"/>
+			<AnimationPropertyFrames>
+			</AnimationPropertyFrames>
+			<AnimationWalkSteps>
+			</AnimationWalkSteps>
+			<AnimationPauses>
+			</AnimationPauses>
+		</Animation>
+		<Animation name="ErdAnimation" id="22" order="0" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="0" AnimationPause="1000" AnimationDirection="-1" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
+			<AnimationPosition x="0" y="0"/>
+			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationSprites>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_1.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_2.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_3.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_4.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_5.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_6.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_7.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_8.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_9.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_10.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_11.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_12.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_13.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_14.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_15.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_16.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_17.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_18.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_19.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_20.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_21.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_22.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_23.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_24.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_25.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_26.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_27.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_28.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_29.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_30.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_31.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_32.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_33.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_34.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_35.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_36.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_37.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_38.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_39.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_40.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_41.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_42.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_43.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_44.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_45.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_46.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_47.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_48.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_49.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_50.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_51.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_52.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_53.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_54.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_55.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_56.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_57.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_58.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_59.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_60.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_61.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_62.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_63.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_64.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_65.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_66.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_67.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_68.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_69.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_70.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_71.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_72.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_73.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_74.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_75.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_76.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_77.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_78.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_79.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_80.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_81.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_82.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_83.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_84.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_85.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_86.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_87.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_88.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_89.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_90.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_91.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_92.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_93.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_94.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_95.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_96.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_97.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_98.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_99.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_100.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_101.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_102.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_103.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_104.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_105.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_106.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_107.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_108.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_109.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_110.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_111.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_112.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_113.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_114.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_115.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_116.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_117.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_118.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_119.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="-1" path="rooms/earth_anim/3rd_120.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+			</AnimationSprites>
+			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationCenter x="0" y="0"/>
+			<AnimationPropertyFrames>
+			</AnimationPropertyFrames>
+			<AnimationWalkSteps>
+			</AnimationWalkSteps>
+			<AnimationPauses>
+			</AnimationPauses>
+		</Animation>
+		<Animation name="BG_Animation" id="24" order="0" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="-1" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
+			<AnimationPosition x="0" y="0"/>
+			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationSprites>
+			</AnimationSprites>
+			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationCenter x="0" y="0"/>
+			<AnimationPropertyFrames>
+			</AnimationPropertyFrames>
+			<AnimationWalkSteps>
+			</AnimationWalkSteps>
+			<AnimationPauses>
+			</AnimationPauses>
+		</Animation>
+		<Animation name="BG_ANIMATION" id="25" order="0" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="0" AnimationPause="100" AnimationDirection="-1" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
+			<AnimationPosition x="0" y="0"/>
+			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationSprites>
+				<sprite name="" pause="-1" path="Room_Spaceship_Maschinenraum_ANIMATIONFRAME" Transparency="2">
+					<position x="1" y="8"/>
+				</sprite>
+				<sprite name="" pause="128" path="rooms/room_ufo_engine/Room_Spaceship_Maschinenraum_ANIMATIONFRAME.png" Transparency="2">
+					<position x="288" y="-4"/>
+				</sprite>
+				<sprite name="" pause="128" path="rooms/room_ufo_engine/Room_Spaceship_Maschinenraum_ANIMATIONFRAME.png" Transparency="2">
+					<position x="254" y="-25"/>
+				</sprite>
+				<sprite name="" pause="144" path="rooms/room_ufo_engine/Room_Spaceship_Maschinenraum_ANIMATIONFRAME.png" Transparency="2">
+					<position x="222" y="-20"/>
+				</sprite>
+				<sprite name="" pause="144" path="rooms/room_ufo_engine/Room_Spaceship_Maschinenraum_ANIMATIONFRAME.png" Transparency="2">
+					<position x="187" y="-50"/>
+				</sprite>
+				<sprite name="" pause="144" path="rooms/room_ufo_engine/Room_Spaceship_Maschinenraum_ANIMATIONFRAME.png" Transparency="2">
+					<position x="154" y="-5"/>
+				</sprite>
+				<sprite name="" pause="144" path="rooms/room_ufo_engine/Room_Spaceship_Maschinenraum_ANIMATIONFRAME.png" Transparency="2">
+					<position x="120" y="-5"/>
+				</sprite>
+				<sprite name="" pause="144" path="rooms/room_ufo_engine/Room_Spaceship_Maschinenraum_ANIMATIONFRAME.png" Transparency="2">
+					<position x="86" y="-25"/>
+				</sprite>
+				<sprite name="" pause="144" path="rooms/room_ufo_engine/Room_Spaceship_Maschinenraum_ANIMATIONFRAME.png" Transparency="2">
+					<position x="52" y="-4"/>
+				</sprite>
+				<sprite name="" pause="144" path="rooms/room_ufo_engine/Room_Spaceship_Maschinenraum_ANIMATIONFRAME.png" Transparency="2">
+					<position x="21" y="-14"/>
+				</sprite>
+				<sprite name="" pause="144" path="rooms/room_ufo_engine/Room_Spaceship_Maschinenraum_ANIMATIONFRAME.png" Transparency="2">
+					<position x="-12" y="-15"/>
+				</sprite>
+				<sprite name="" pause="144" path="rooms/room_ufo_engine/Room_Spaceship_Maschinenraum_ANIMATIONFRAME.png" Transparency="2">
+					<position x="-36" y="-15"/>
+				</sprite>
+				<sprite name="" pause="144" path="rooms/room_ufo_engine/Room_Spaceship_Maschinenraum_ANIMATIONFRAME.png" Transparency="2">
+					<position x="-73" y="-10"/>
+				</sprite>
+				<sprite name="" pause="144" path="rooms/room_ufo_engine/Room_Spaceship_Maschinenraum_ANIMATIONFRAME.png" Transparency="2">
+					<position x="-62" y="-13"/>
+				</sprite>
+			</AnimationSprites>
+			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationCenter x="0" y="0"/>
+			<AnimationPropertyFrames>
+			</AnimationPropertyFrames>
+			<AnimationWalkSteps>
+			</AnimationWalkSteps>
+			<AnimationPauses>
+			</AnimationPauses>
+		</Animation>
+		<Animation name="Unnamed" id="27" order="27" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="-1" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
+			<AnimationPosition x="0" y="0"/>
+			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationSprites>
+				<sprite name="" pause="128" path="gui/mouse_cursors/cur_changeroom_down.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+			</AnimationSprites>
+			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationCenter x="0" y="0"/>
+			<AnimationPropertyFrames>
+			</AnimationPropertyFrames>
+			<AnimationWalkSteps>
+			</AnimationWalkSteps>
+			<AnimationPauses>
+			</AnimationPauses>
+		</Animation>
+		<Animation name="Unnamed" id="28" order="28" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="-1" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
+			<AnimationPosition x="0" y="0"/>
+			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationSprites>
+				<sprite name="" pause="128" path="gui/mouse_cursors/cur_changeroom_down.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+			</AnimationSprites>
+			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationCenter x="0" y="0"/>
+			<AnimationPropertyFrames>
+			</AnimationPropertyFrames>
+			<AnimationWalkSteps>
+			</AnimationWalkSteps>
+			<AnimationPauses>
+			</AnimationPauses>
+		</Animation>
+		<Animation name="Unnamed" id="29" order="29" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="-1" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
+			<AnimationPosition x="0" y="0"/>
+			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationSprites>
+				<sprite name="" pause="128" path="gui/mouse_cursors/cur_changeroom_up.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+			</AnimationSprites>
+			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationCenter x="0" y="0"/>
+			<AnimationPropertyFrames>
+			</AnimationPropertyFrames>
+			<AnimationWalkSteps>
+			</AnimationWalkSteps>
+			<AnimationPauses>
+			</AnimationPauses>
+		</Animation>
+		<Animation name="Unnamed" id="30" order="30" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="-1" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
+			<AnimationPosition x="0" y="0"/>
+			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationSprites>
+				<sprite name="" pause="128" path="gui/mouse_cursors/cur_changeroom_up.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+			</AnimationSprites>
+			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationCenter x="0" y="0"/>
+			<AnimationPropertyFrames>
+			</AnimationPropertyFrames>
+			<AnimationWalkSteps>
+			</AnimationWalkSteps>
+			<AnimationPauses>
+			</AnimationPauses>
+		</Animation>
+	</Animations>
+	<Conditions newId="2" versionedId="-1" tableId="10">
+		<Condition name="NewGame_MenuText" id="0" order="0" lastModified="-1" ConditionIsVariable="T" ConditionValue="F" ConditionReturnNegate="F" ConditionOperator="0">
+			<ConditionConditions>
+			</ConditionConditions>
+		</Condition>
+		<Condition name="Bedingung0" id="1" order="0" lastModified="-1" ConditionIsVariable="T" ConditionValue="F" ConditionReturnNegate="F" ConditionOperator="0">
+			<ConditionConditions>
+			</ConditionConditions>
+		</Condition>
+	</Conditions>
+	<Dialogs newId="0" versionedId="-1" tableId="11">
+	</Dialogs>
+	<DialogParts newId="0" versionedId="-1" tableId="12">
+	</DialogParts>
+	<Sprites newId="14" versionedId="-1" tableId="13">
+		<Sprite name="Unnamed" id="0" order="0" lastModified="-1">
+			<SpriteSprite name="" pause="-1" path="" Transparency="-1">
+				<position x="0" y="0"/>
+			</SpriteSprite>
+		</Sprite>
+		<Sprite name="Unnamed" id="1" order="1" lastModified="-1">
+			<SpriteSprite name="" pause="-1" path="" Transparency="-1">
+				<position x="0" y="0"/>
+			</SpriteSprite>
+		</Sprite>
+		<Sprite name="Bild" id="4" order="4" lastModified="-1">
+			<SpriteSprite name="" pause="-1" path="gui/mainmenu_newgame_active.png" Transparency="2">
+				<position x="136" y="50"/>
+			</SpriteSprite>
+		</Sprite>
+		<Sprite name="Bild" id="5" order="5" lastModified="-1">
+			<SpriteSprite name="" pause="-1" path="gui/mainmenu_newgame.png" Transparency="2">
+				<position x="136" y="50"/>
+			</SpriteSprite>
+		</Sprite>
+		<Sprite name="Bild" id="10" order="10" lastModified="-1">
+			<SpriteSprite name="" pause="-1" path="gui/Room_MainMenu.png" Transparency="-1">
+				<position x="0" y="0"/>
+			</SpriteSprite>
+		</Sprite>
+		<Sprite name="Bild" id="11" order="11" lastModified="-1">
+			<SpriteSprite name="" pause="-1" path="rooms/room_ufo_cockpit/Room_Spaceship_Cockpit.png" Transparency="-1">
+				<position x="0" y="0"/>
+			</SpriteSprite>
+		</Sprite>
+		<Sprite name="Bild" id="13" order="13" lastModified="-1">
+			<SpriteSprite name="" pause="-1" path="rooms/room_ufo_engine/Room_Spaceship_Maschinenraum_FG.png" Transparency="-1">
+				<position x="0" y="0"/>
+			</SpriteSprite>
+		</Sprite>
+	</Sprites>
+	<Texts newId="49" versionedId="-1" tableId="14">
+		<Text name="Id: 0 - : Start menu" id="0" order="0" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
+				<text Text="Hauptmenü" path="" int="1"/>
+				<text Text="Main menu" path="" int="2"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Id: 1 - : UFO_Cockpit" id="1" order="1" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
+				<text Text="UFO Cockpit" path="" int="1"/>
+				<text Text="UFO Cockpit" path="" int="2"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Id: 2 - : Character_Klaus" id="2" order="2" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="Klaus" path="" int="0"/>
+				<text Text="Klaus" path="" int="1"/>
+				<text Text="Klaus" path="" int="2"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Id: 3 - Mouse: left_click" id="3" order="3" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
+				<text Text="" path="" int="1"/>
+				<text Text="" path="" int="2"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Id: 4 - Mouse: left_click" id="4" order="4" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="1"/>
+				<text Text="" path="" int="0"/>
+				<text Text="" path="" int="2"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Id: 7 - Start menu: Start game (active)" id="7" order="7" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
+				<text Text="Neues Spiel" path="" int="1"/>
+				<text Text="New Game" path="" int="2"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Id: 8 - Start menu: Start game (inactive)" id="8" order="8" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
+				<text Text="Neues Spiel" path="" int="1"/>
+				<text Text="New Game" path="" int="2"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Id: 9 - Start menu: Quit game (active)" id="9" order="9" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
+				<text Text="Spiel Beenden" path="" int="1"/>
+				<text Text="Quit Game" path="" int="2"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Id: 13 - Kommentargruppe0: CommentSetEntry: ...: Id: 13 - Kommentargruppe0: CommentSetEntry: ...: Id: 13 - Kommentargruppe0: CommentSetEntry: ...: Id: 13 - Kommentargruppe0: CommentSetEntry: ...: Id: 13 - Kommentargruppe0: Kommentareintrag: ...: Id: 13 - Kommentargruppe0: Kommentareintrag: ...: Id: 13 - Kommentargruppe0: Kommentareintrag: ...: Id: 13 - Kommentargruppe0: Kommentareintrag: ...: Unnamed" id="13" order="13" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
+				<text Text="" path="" int="1"/>
+				<text Text="" path="" int="2"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Id: 14 - Start menu: Hintergrundanimation" id="14" order="14" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="Hintergrundanimation" path="" int="1"/>
+				<text Text="" path="" int="0"/>
+				<text Text="Background Animation" path="" int="2"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Id: 15 - Start menu: Vordergrund" id="15" order="15" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="1"/>
+				<text Text="" path="" int="0"/>
+				<text Text="" path="" int="2"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Id: 16 - UFO_Cockpit: BGAnimation" id="16" order="16" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="1"/>
+				<text Text="" path="" int="0"/>
+				<text Text="" path="" int="2"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Id: 17 - UFO_Cockpit: Vordergrund" id="17" order="17" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="1"/>
+				<text Text="" path="" int="0"/>
+				<text Text="" path="" int="2"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Id: 18 - UFO_Cockpit: StartPoint" id="18" order="18" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="1"/>
+				<text Text="" path="" int="0"/>
+				<text Text="" path="" int="2"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Id: 19 - : UFO Maschinenraum" id="19" order="19" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
+				<text Text="UFO Maschinenraum" path="" int="1"/>
+				<text Text="UFO Machine Room" path="" int="2"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Id: 20 - UFO Maschinenraum: Foreground" id="20" order="20" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="1"/>
+				<text Text="" path="" int="0"/>
+				<text Text="" path="" int="2"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Id: 21 - UFO Maschinenraum: BGAnimation" id="21" order="21" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="1"/>
+				<text Text="" path="" int="0"/>
+				<text Text="" path="" int="2"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Id: 26 - Start menu: Start game (inactive): Mausbewegung in Objektbereich" id="26" order="26" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="Neues Spiel" path="" int="1"/>
+				<text Text="New Game" path="" int="2"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Id: 29 - UFO_Cockpit: Zum_Maschinenraum" id="29" order="29" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="Maschinenraum" path="" int="1"/>
+				<text Text="Machine room" path="" int="2"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Id: 31 - UFO Maschinenraum: Stehplatz_Nach_Abstieg" id="31" order="31" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="1"/>
+				<text Text="" path="" int="2"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Id: 37 - UFO_Cockpit: Zum_Maschinenraum: Rechtsklick (sofort)" id="37" order="37" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="Da gehts nach unten." path="" int="1"/>
+				<text Text="Downwards." path="" int="2"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Id: 43 - Bei Beginn der Kulisse: Character_Klaus: Wo muss ich jetzt was putzen?" id="43" order="43" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="Wo muss ich jetzt was putzen?" path="" int="1"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Id: 44 - Bei Beginn der Kulisse: Character_Klaus: Niemand hier..." id="44" order="44" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="Niemand hier..." path="" int="1"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="45" order="45" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="Cockpit" path="" int="1"/>
+				<text Text="Cockpit" path="" int="2"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="48" order="48" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="Da gehts hoch." path="" int="1"/>
+				<text Text="Upwards." path="" int="2"/>
+			</TextTextLanguages>
+		</Text>
+	</Texts>
+	<Cursors newId="5" versionedId="-1" tableId="15">
+		<Cursor name="Cross" id="0" order="0" lastModified="-1">
+			<CursorActiveAnimation parentLink="T" id="10" tableId="9" LinkAny="F"/>
+			<CursorInactiveAnimation parentLink="T" id="11" tableId="9" LinkAny="F"/>
+		</Cursor>
+		<Cursor name="Interact" id="1" order="3" lastModified="-1">
+			<CursorActiveAnimation parentLink="T" id="14" tableId="9" LinkAny="F"/>
+			<CursorInactiveAnimation parentLink="T" id="15" tableId="9" LinkAny="F"/>
+		</Cursor>
+		<Cursor name="LookAt" id="2" order="4" lastModified="-1">
+			<CursorActiveAnimation parentLink="T" id="18" tableId="9" LinkAny="F"/>
+			<CursorInactiveAnimation parentLink="T" id="19" tableId="9" LinkAny="F"/>
+		</Cursor>
+		<Cursor name="GoTo_DOWN" id="3" order="1" lastModified="-1">
+			<CursorActiveAnimation parentLink="T" id="27" tableId="9" LinkAny="F"/>
+			<CursorInactiveAnimation parentLink="T" id="28" tableId="9" LinkAny="F"/>
+		</Cursor>
+		<Cursor name="GoTo_UP" id="4" order="2" lastModified="-1">
+			<CursorActiveAnimation parentLink="T" id="29" tableId="9" LinkAny="F"/>
+			<CursorInactiveAnimation parentLink="T" id="30" tableId="9" LinkAny="F"/>
+		</Cursor>
+	</Cursors>
+	<CommentSets newId="1" versionedId="-1" tableId="16">
+		<CommentSet name="Kommentargruppe0" id="0" order="0" lastModified="-1">
+			<CommentSetEntries>
+				<Link parentLink="T" id="0" tableId="27" LinkAny="F"/>
+			</CommentSetEntries>
+		</CommentSet>
+	</CommentSets>
+	<Outfits newId="1" versionedId="-1" tableId="17">
+		<Outfit name="Normal" id="0" order="0" lastModified="-1" OutfitCharacterSpeed="100" OutfitModel="" OutfitCameraHeight="0" OutfitCameraAngle="0" OutfitUseLight="F" OutfitLightPosX="1.000000" OutfitLightPosY="1.000000" OutfitLightPosZ="1.000000" OutfitLightColor="9345433" OutfitModelScaleFactor="100" OutfitModelUseToonShading="F" OutfitModelToonNuances="3" OutfitModelShowOutline="F" OutfitModelOutlineColor="0" OutfitModelOutlineWidth="5" OutfitAmbientLightColor="6717311" OutfitModelShadowVisibility="50" OutfitRandomMinTime="10000" OutfitRandomMaxTime="30000" OutfitModelShadow="2" OutfitModelAmbientOcclusion="50" OutfitSlideWalkAnimation="T" OutfitModelTurnSpeed="100">
+			<OutfitWalkAnimations>
+				<Link parentLink="T" id="0" tableId="9" LinkAny="F"/>
+				<Link parentLink="T" id="1" tableId="9" LinkAny="F"/>
+				<Link parentLink="T" id="2" tableId="9" LinkAny="F"/>
+				<Link parentLink="T" id="3" tableId="9" LinkAny="F"/>
+			</OutfitWalkAnimations>
+			<OutfitTalkAnimations>
+			</OutfitTalkAnimations>
+			<OutfitRandomAnimations>
+			</OutfitRandomAnimations>
+			<OutfitCharacterAnimations>
+			</OutfitCharacterAnimations>
+			<OutfitStandingAnimations>
+				<Link parentLink="T" id="4" tableId="9" LinkAny="F"/>
+				<Link parentLink="T" id="5" tableId="9" LinkAny="F"/>
+				<Link parentLink="T" id="6" tableId="9" LinkAny="F"/>
+				<Link parentLink="T" id="7" tableId="9" LinkAny="F"/>
+			</OutfitStandingAnimations>
+			<OutfitModelTextures>
+			</OutfitModelTextures>
+			<OutfitModelFiles>
+			</OutfitModelFiles>
+			<OutfitTurnAnimations>
+			</OutfitTurnAnimations>
+		</Outfit>
+	</Outfits>
+	<Languages newId="3" versionedId="-1" tableId="18">
+		<Language name="Deutsch" id="1" order="0" lastModified="-1">
+		</Language>
+		<Language name="English" id="2" order="1" lastModified="-1">
+		</Language>
+	</Languages>
+	<Values newId="0" versionedId="-1" tableId="20">
+	</Values>
+	<Particles newId="0" versionedId="-1" tableId="22">
+	</Particles>
+	<ParticleContainers newId="0" versionedId="-1" tableId="23">
+	</ParticleContainers>
+	<CommentSetEntries newId="1" versionedId="-1" tableId="27">
+		<CommentSetEntry name="Kommentareintrag0" id="0" order="0" lastModified="-1">
+			<CommentSetEntryText parentLink="T" id="13" tableId="14" LinkAny="F"/>
+			<CommentSetEntryCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</CommentSetEntry>
+	</CommentSetEntries>
+	<AnimationFrames newId="0" versionedId="-1" tableId="28">
+	</AnimationFrames>
+	<WaySystems newId="3" versionedId="-1" tableId="29">
+		<WaySystem name="Wegsystem0" id="1" order="0" lastModified="-1">
+			<WaySystemBorder>
+				<point x="2" y="200"/>
+				<point x="22" y="155"/>
+				<point x="59" y="172"/>
+				<point x="100" y="170"/>
+				<point x="121" y="128"/>
+				<point x="157" y="124"/>
+				<point x="200" y="129"/>
+				<point x="200" y="155"/>
+				<point x="209" y="169"/>
+				<point x="233" y="175"/>
+				<point x="262" y="170"/>
+				<point x="268" y="149"/>
+				<point x="298" y="165"/>
+				<point x="327" y="197"/>
+			</WaySystemBorder>
+			<WaySystemPoints>
+				<Link parentLink="T" id="0" tableId="5" LinkAny="F"/>
+				<Link parentLink="T" id="1" tableId="5" LinkAny="F"/>
+				<Link parentLink="T" id="2" tableId="5" LinkAny="F"/>
+				<Link parentLink="T" id="3" tableId="5" LinkAny="F"/>
+				<Link parentLink="T" id="4" tableId="5" LinkAny="F"/>
+			</WaySystemPoints>
+		</WaySystem>
+		<WaySystem name="Wegsystem0" id="2" order="0" lastModified="-1">
+			<WaySystemBorder>
+				<point x="322" y="176"/>
+				<point x="322" y="206"/>
+				<point x="1" y="201"/>
+				<point x="0" y="174"/>
+				<point x="42" y="148"/>
+				<point x="81" y="133"/>
+				<point x="131" y="126"/>
+				<point x="173" y="126"/>
+				<point x="221" y="132"/>
+				<point x="270" y="148"/>
+				<point x="314" y="173"/>
+				<point x="322" y="180"/>
+			</WaySystemBorder>
+			<WaySystemPoints>
+			</WaySystemPoints>
+		</WaySystem>
+	</WaySystems>
+	<Scripts newId="0" versionedId="-1" tableId="30">
+	</Scripts>
+	<InterfaceClasses newId="5" versionedId="-1" tableId="31">
+		<InterfaceClass name="Hauptinterface" id="0" order="0" lastModified="-1" InterfaceClassName="MainInterface">
+		</InterfaceClass>
+		<InterfaceClass name="Inventar" id="1" order="1" lastModified="-1" InterfaceClassName="Inventory">
+		</InterfaceClass>
+		<InterfaceClass name="Sekundärinterface" id="2" order="2" lastModified="-1" InterfaceClassName="SecondaryInterface">
+		</InterfaceClass>
+		<InterfaceClass name="Optionen-Interface" id="3" order="3" lastModified="-1" InterfaceClassName="OptionsInterface">
+		</InterfaceClass>
+		<InterfaceClass name="Sonstiges" id="4" order="4" lastModified="-1" InterfaceClassName="Miscellaneous">
+		</InterfaceClass>
+	</InterfaceClasses>
+	<ActionAreas newId="0" versionedId="-1" tableId="32">
+	</ActionAreas>
+	<AreaActions newId="0" versionedId="-1" tableId="33">
+	</AreaActions>
+	<Shaders newId="0" versionedId="-1" tableId="36">
+	</Shaders>
+	<AudioBusses newId="3" versionedId="-1" tableId="37">
+		<AudioBus name="eMusicVolume" id="0" order="0" lastModified="-1" AudioBusType="1" AudioBusSettings="">
+			<AudioBusLinks>
+			</AudioBusLinks>
+			<AudioBusValues>
+			</AudioBusValues>
+			<AudioBusEvents>
+			</AudioBusEvents>
+			<AudioBusOutputBus parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AudioBusLinkedObjects>
+			</AudioBusLinkedObjects>
+		</AudioBus>
+		<AudioBus name="eSoundVolume" id="1" order="1" lastModified="-1" AudioBusType="1" AudioBusSettings="">
+			<AudioBusLinks>
+			</AudioBusLinks>
+			<AudioBusValues>
+			</AudioBusValues>
+			<AudioBusEvents>
+			</AudioBusEvents>
+			<AudioBusOutputBus parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AudioBusLinkedObjects>
+			</AudioBusLinkedObjects>
+		</AudioBus>
+		<AudioBus name="eSpeechVolume" id="2" order="2" lastModified="-1" AudioBusType="1" AudioBusSettings="">
+			<AudioBusLinks>
+			</AudioBusLinks>
+			<AudioBusValues>
+			</AudioBusValues>
+			<AudioBusEvents>
+			</AudioBusEvents>
+			<AudioBusOutputBus parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AudioBusLinkedObjects>
+			</AudioBusLinkedObjects>
+		</AudioBus>
+	</AudioBusses>
+	<Events newId="0" versionedId="-1" tableId="38">
+	</Events>
+	<Plugins newId="0" versionedId="-1" tableId="39">
+	</Plugins>
+	<BlockContainers newId="0" versionedId="-1" tableId="40">
+	</BlockContainers>
+	<Blocks newId="0" versionedId="-1" tableId="41">
+	</Blocks>
+	<Curves newId="0" versionedId="-1" tableId="42">
+	</Curves>
+</VisionaireAdventure>
