@@ -964,15 +964,15 @@
 				<point x="65" y="201"/>
 				<point x="0" y="204"/>
 			</ObjectPolygon>
-			<ObjectCondition parentLink="F" id="1" tableId="10" LinkAny="F"/>
+			<ObjectCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ObjectSprite parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ObjectAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ObjectActions>
 				<Link parentLink="T" id="1" tableId="7" LinkAny="F"/>
-				<Link parentLink="T" id="5" tableId="7" LinkAny="F"/>
+				<Link parentLink="T" id="20" tableId="7" LinkAny="F"/>
+				<Link parentLink="T" id="21" tableId="7" LinkAny="F"/>
 			</ObjectActions>
 			<ObjectConditions>
-				<Link parentLink="T" id="1" tableId="10" LinkAny="F"/>
 			</ObjectConditions>
 			<ObjectAnimations>
 				<Link parentLink="T" id="24" tableId="9" LinkAny="F"/>
@@ -1228,7 +1228,7 @@
 			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</Object>
 	</Objects>
-	<Actions newId="20" versionedId="-1" tableId="7">
+	<Actions newId="22" versionedId="-1" tableId="7">
 		<Action name="Linksklick" id="0" order="0" lastModified="-1" ActionExecutionType="7">
 			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -1257,13 +1257,6 @@
 			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionActionParts>
 				<Link parentLink="T" id="4" tableId="8" LinkAny="F"/>
-			</ActionActionParts>
-		</Action>
-		<Action name="Mausbewegung aus Objektbereich" id="5" order="1" lastModified="-1" ActionExecutionType="2">
-			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<ActionActionParts>
-				<Link parentLink="T" id="6" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
 		<Action name="Escape" id="7" order="0" lastModified="-1" ActionExecutionType="27">
@@ -1346,8 +1339,22 @@
 				<Link parentLink="T" id="35" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
+		<Action name="Mausbewegung in Objektbereich" id="20" order="1" lastModified="-1" ActionExecutionType="1">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="36" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
+		<Action name="Mausbewegung aus Objektbereich" id="21" order="2" lastModified="-1" ActionExecutionType="2">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="37" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
 	</Actions>
-	<ActionParts newId="36" versionedId="-1" tableId="8">
+	<ActionParts newId="38" versionedId="-1" tableId="8">
 		<ActionPart name="Zu Kulisse von Person 'Aktuelle Person' wechseln" id="0" order="0" lastModified="-1" ActionPartCommand="54" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -1366,10 +1373,6 @@
 		</ActionPart>
 		<ActionPart name="Bedingung 'NewGame_MenuText' auf falsch setzen" id="4" order="0" lastModified="-1" ActionPartCommand="139" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="0" tableId="10" LinkAny="F"/>
-			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-		</ActionPart>
-		<ActionPart name="Bedingung 'Bedingung0' auf falsch setzen" id="6" order="0" lastModified="-1" ActionPartCommand="139" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
-			<ActionPartLink parentLink="F" id="1" tableId="10" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
 		<ActionPart name="Menü 'Start menu' zeigen" id="8" order="0" lastModified="-1" ActionPartCommand="46" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
@@ -1430,6 +1433,14 @@
 		</ActionPart>
 		<ActionPart name="Zu Kulisse 'UFO_Cockpit' wechseln" id="35" order="0" lastModified="-1" ActionPartCommand="10" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="12" tableId="6" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Text für 'Quit game (active)' anzeigen" id="36" order="0" lastModified="-1" ActionPartCommand="155" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="180" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="T" id="50" tableId="14" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="2" tableId="6" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Text von 'Quit game (active)' verstecken" id="37" order="0" lastModified="-1" ActionPartCommand="156" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="2" tableId="6" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
 	</ActionParts>
@@ -2597,10 +2608,6 @@
 			<ConditionConditions>
 			</ConditionConditions>
 		</Condition>
-		<Condition name="Bedingung0" id="1" order="0" lastModified="-1" ConditionIsVariable="T" ConditionValue="F" ConditionReturnNegate="F" ConditionOperator="0">
-			<ConditionConditions>
-			</ConditionConditions>
-		</Condition>
 	</Conditions>
 	<Dialogs newId="0" versionedId="-1" tableId="11">
 	</Dialogs>
@@ -2643,7 +2650,7 @@
 			</SpriteSprite>
 		</Sprite>
 	</Sprites>
-	<Texts newId="49" versionedId="-1" tableId="14">
+	<Texts newId="52" versionedId="-1" tableId="14">
 		<Text name="Id: 0 - : Start menu" id="0" order="0" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
@@ -2807,6 +2814,12 @@
 			<TextTextLanguages>
 				<text Text="Da gehts hoch." path="" int="1"/>
 				<text Text="Upwards." path="" int="2"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="50" order="50" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="Spiel Beenden" path="" int="1"/>
+				<text Text="Quit Game" path="" int="2"/>
 			</TextTextLanguages>
 		</Text>
 	</Texts>
