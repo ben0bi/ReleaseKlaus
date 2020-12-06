@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <VisionaireAdventure projectType="-1" revision="-1" version="196">
-	<Game name="" id="1" order="1" lastModified="-1" GameId="1667" GameDescription="Adventure, in welchem ein Alien sich aus der Basis der Menschen befreien muss." GameAbout="Adventure, in welchem ein Alien sich aus der Basis der Menschen befreien muss." GameIntro="" GameCommandBehaviour="0" GameFadeDelay="600" GameScrollSpeed="40" GameFullScreenIntro="F" GameDraggableItems="F" GameReserved="" GameHoldTime="600" GameFadeEffect="3" GameMinificationFilter="1" GameMagnificationFilter="1" GameAutoHideInterfacesInMenu="T" GameAlwaysAllowSkipText="T" GameExecuteActionsDuringDialog="F" GameAlignCharacterOnImExecution="F" GameComposedFile="" GameSceneComposedFiles="0" GameSceneComposedFile="" GameCharacterComposedFiles="0" GameCharacterComposedFile="" GameMovieComposedFiles="2" GameMovieComposedFile="" GameVersion="0.0.1" GameDrawActionText="1" GameQuake="F" GameSpeakerTextAlignment="0" GameTextAlignment="2" GameKeepCharacterSpritesDuringMenus="T" GameDisableInteractionDuringAnim="0" GamePictureCacheSize="40" GameInterfaceComposedFiles="0" GameInterfaceComposedFile="" GameGameComposedFiles="0" GameGameComposedFile="" GameVideosEncrypted="F" GameCompanyName="Ben0biEnterprises" GameGameName="ReleaseKlaus" GamePreloadPicThreads="3" GamePreloadedPicBufferSize="16384" GamePicBufferSize="120000" GameVideoSubtitleLanguage="" GameVideoAudioLanguage="" GamePreallocatedTextures="-1" GameNearestNeighborInterpolation="T" SpeakerSoundPanFactor="8" GameShowBlackScreenAfterVideo="F" GameSavegameScreenshot="" GameLeftHoldBehaviour="0" GameMiddleClickBehaviour="0" GameRightClickBehaviour="0" GameVideoPauseScreen="" GameExecuteCalledActionImmediately="T" GameIconFile="" GameBuildOptions="" GameSmoothScrolling="T" GameSaveNameOffsetY="-1" GameLeftClickBehaviour="1">
+	<Game name="" id="1" order="1" lastModified="-1" GameId="1667" GameDescription="Adventure, in welchem ein Alien sich aus der Basis der Menschen befreien muss." GameAbout="Adventure, in welchem ein Alien sich aus der Basis der Menschen befreien muss." GameIntro="" GameCommandBehaviour="0" GameFadeDelay="600" GameScrollSpeed="40" GameFullScreenIntro="F" GameDraggableItems="F" GameReserved="" GameHoldTime="600" GameFadeEffect="3" GameMinificationFilter="1" GameMagnificationFilter="1" GameAutoHideInterfacesInMenu="T" GameAlwaysAllowSkipText="T" GameExecuteActionsDuringDialog="F" GameAlignCharacterOnImExecution="F" GameComposedFile="D:\Adventure\RK.vis" GameSceneComposedFiles="0" GameSceneComposedFile="" GameCharacterComposedFiles="0" GameCharacterComposedFile="" GameMovieComposedFiles="2" GameMovieComposedFile="" GameVersion="0.0.1" GameDrawActionText="1" GameQuake="F" GameSpeakerTextAlignment="0" GameTextAlignment="2" GameKeepCharacterSpritesDuringMenus="T" GameDisableInteractionDuringAnim="0" GamePictureCacheSize="40" GameInterfaceComposedFiles="0" GameInterfaceComposedFile="" GameGameComposedFiles="0" GameGameComposedFile="" GameVideosEncrypted="F" GameCompanyName="Ben0biEnterprises" GameGameName="ReleaseKlaus" GamePreloadPicThreads="3" GamePreloadedPicBufferSize="16384" GamePicBufferSize="120000" GameVideoSubtitleLanguage="" GameVideoAudioLanguage="" GamePreallocatedTextures="-1" GameNearestNeighborInterpolation="T" SpeakerSoundPanFactor="8" GameShowBlackScreenAfterVideo="F" GameSavegameScreenshot="" GameLeftHoldBehaviour="0" GameMiddleClickBehaviour="0" GameRightClickBehaviour="0" GameVideoPauseScreen="" GameExecuteCalledActionImmediately="T" GameIconFile="" GameBuildOptions="12;general/webp;5;false;13;general/scale;4;true;14;general/scaleX;3;320;14;general/scaleY;3;200;19;windows/versionCode;7;1.0.0.1;18;windows/changeIcon;4;true;22;windows/changeManifest;4;true;" GameSmoothScrolling="T" GameSaveNameOffsetY="-1" GameLeftClickBehaviour="1">
 		<GameSceneLinks>
 			<Link parentLink="T" id="0" tableId="4" LinkAny="F"/>
 			<Link parentLink="T" id="1" tableId="4" LinkAny="F"/>
@@ -69,7 +69,11 @@
 		<GameContainers>
 		</GameContainers>
 		<GameBuildRules>
-			<path path="\eActionParts(VActionPartCommand=66);.vv&lt;3c&gt;;copy"/>
+			<path path="\eActionParts(VActionPartCommand=66);.vv&lt;3c&gt;"/>
+			<path path="#\eTexts;Lang_&lt;n&gt;.vt"/>
+			<path path="#\eScenes;Scene&lt;3c&gt;.vs"/>
+			<path path="#\eCharacters;Character&lt;3c&gt;.vc"/>
+			<path path="#\eInterfaces;Interfaces.vi"/>
 			<path path="\eGame;&lt;Main.vis&gt;"/>
 		</GameBuildRules>
 		<GameShaderLinks>
@@ -842,6 +846,7 @@
 				<Link parentLink="T" id="11" tableId="6" LinkAny="F"/>
 				<Link parentLink="T" id="13" tableId="6" LinkAny="F"/>
 				<Link parentLink="T" id="14" tableId="6" LinkAny="F"/>
+				<Link parentLink="T" id="17" tableId="6" LinkAny="F"/>
 			</SceneObjects>
 			<SceneCursor parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<SceneSavegameAreas>
@@ -868,7 +873,7 @@
 			</SceneCurves>
 		</Scene>
 	</Scenes>
-	<Points newId="18" versionedId="-1" tableId="5">
+	<Points newId="17" versionedId="-1" tableId="5">
 		<Point name="Punkt0" id="0" order="0" lastModified="-1" PointSize="150">
 			<PointPosition x="153" y="173"/>
 			<PointRelations>
@@ -931,7 +936,7 @@
 			</PointRelations>
 		</Point>
 	</Points>
-	<Objects newId="17" versionedId="-1" tableId="6">
+	<Objects newId="18" versionedId="-1" tableId="6">
 		<Object name="Start game (active)" id="0" order="0" lastModified="-1" ObjectDirection="-1" ObjectCenter="61" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="104" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
 			<ObjectName parentLink="T" id="7" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
@@ -1125,7 +1130,7 @@
 			<ObjectSnoopAnimationPos x="0" y="0"/>
 			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</Object>
-		<Object name="Foreground" id="10" order="1" lastModified="-1" ObjectDirection="-1" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
+		<Object name="Foreground" id="10" order="2" lastModified="-1" ObjectDirection="-1" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
 			<ObjectName parentLink="T" id="20" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
 			</ObjectPolygon>
@@ -1146,7 +1151,7 @@
 			<ObjectSnoopAnimationPos x="0" y="0"/>
 			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</Object>
-		<Object name="BGAnimation" id="11" order="2" lastModified="-1" ObjectDirection="-1" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
+		<Object name="BGAnimation" id="11" order="3" lastModified="-1" ObjectDirection="-1" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
 			<ObjectName parentLink="T" id="21" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
 			</ObjectPolygon>
@@ -1206,7 +1211,7 @@
 			<ObjectSnoopAnimationPos x="0" y="0"/>
 			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</Object>
-		<Object name="Stehplatz_Nach_Abstieg" id="13" order="0" lastModified="-1" ObjectDirection="-1" ObjectCenter="198" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
+		<Object name="Stehplatz_Nach_Abstieg" id="13" order="1" lastModified="-1" ObjectDirection="-1" ObjectCenter="198" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
 			<ObjectName parentLink="T" id="31" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
 				<point x="52" y="71"/>
@@ -1228,7 +1233,7 @@
 			<ObjectSnoopAnimationPos x="0" y="0"/>
 			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</Object>
-		<Object name="Nach_Oben" id="14" order="3" lastModified="-1" ObjectDirection="180" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
+		<Object name="Nach_Oben" id="14" order="4" lastModified="-1" ObjectDirection="180" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
 			<ObjectName parentLink="T" id="45" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
 				<point x="5" y="114"/>
@@ -1240,7 +1245,7 @@
 				<point x="32" y="100"/>
 			</ObjectPolygon>
 			<ObjectCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<ObjectSprite parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSprite parentLink="T" id="15" tableId="13" LinkAny="F"/>
 			<ObjectAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ObjectActions>
 				<Link parentLink="T" id="16" tableId="7" LinkAny="F"/>
@@ -1314,6 +1319,34 @@
 			<ObjectValues>
 			</ObjectValues>
 			<ObjectPosition x="272" y="158"/>
+			<ObjectParticleSystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimationPos x="0" y="0"/>
+			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</Object>
+		<Object name="Engine" id="17" order="0" lastModified="-1" ObjectDirection="-1" ObjectCenter="174" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
+			<ObjectName parentLink="T" id="60" tableId="14" LinkAny="F"/>
+			<ObjectPolygon>
+				<point x="120" y="174"/>
+				<point x="120" y="140"/>
+				<point x="132" y="133"/>
+				<point x="142" y="124"/>
+				<point x="176" y="125"/>
+				<point x="194" y="139"/>
+				<point x="194" y="171"/>
+			</ObjectPolygon>
+			<ObjectCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSprite parentLink="T" id="14" tableId="13" LinkAny="F"/>
+			<ObjectAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectActions>
+			</ObjectActions>
+			<ObjectConditions>
+			</ObjectConditions>
+			<ObjectAnimations>
+			</ObjectAnimations>
+			<ObjectValues>
+			</ObjectValues>
+			<ObjectPosition x="45" y="43"/>
 			<ObjectParticleSystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ObjectSnoopAnimationPos x="0" y="0"/>
@@ -1608,12 +1641,12 @@
 			<ActionPartLink parentLink="T" id="58" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Character_Klaus: Ich fass das nicht an." id="44" order="0" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Character_Klaus: Das fass ich nicht an." id="44" order="0" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="T" id="59" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
 		</ActionPart>
 	</ActionParts>
-	<Animations newId="34" versionedId="-1" tableId="9">
+	<Animations newId="35" versionedId="-1" tableId="9">
 		<Animation name="front" id="0" order="3" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="270" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
 			<AnimationPosition x="0" y="0"/>
 			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -2813,7 +2846,7 @@
 	</Dialogs>
 	<DialogParts newId="0" versionedId="-1" tableId="12">
 	</DialogParts>
-	<Sprites newId="14" versionedId="-1" tableId="13">
+	<Sprites newId="16" versionedId="-1" tableId="13">
 		<Sprite name="Unnamed" id="0" order="0" lastModified="-1">
 			<SpriteSprite name="" pause="-1" path="" Transparency="-1">
 				<position x="0" y="0"/>
@@ -2849,8 +2882,18 @@
 				<position x="0" y="0"/>
 			</SpriteSprite>
 		</Sprite>
+		<Sprite name="Bild" id="14" order="14" lastModified="-1">
+			<SpriteSprite name="" pause="-1" path="rooms/room_ufo_engine/engine.png" Transparency="2">
+				<position x="111" y="104"/>
+			</SpriteSprite>
+		</Sprite>
+		<Sprite name="Bild" id="15" order="15" lastModified="-1">
+			<SpriteSprite name="" pause="-1" path="rooms/room_ufo_engine/engine.png" Transparency="2">
+				<position x="0" y="0"/>
+			</SpriteSprite>
+		</Sprite>
 	</Sprites>
-	<Texts newId="60" versionedId="-1" tableId="14">
+	<Texts newId="61" versionedId="-1" tableId="14">
 		<Text name="Id: 0 - : Start menu" id="0" order="0" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
@@ -3048,7 +3091,13 @@
 		<Text name="Unnamed" id="59" order="59" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="I don't touch this." path="" int="2"/>
-				<text Text="Ich fass das nicht an." path="" int="1"/>
+				<text Text="Das fass ich nicht an." path="" int="1"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="60" order="60" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="Reaktor" path="" int="1"/>
+				<text Text="Reactor" path="" int="2"/>
 			</TextTextLanguages>
 		</Text>
 	</Texts>
@@ -3131,7 +3180,7 @@
 			<CommentSetEntryCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</CommentSetEntry>
 	</CommentSetEntries>
-	<AnimationFrames newId="2" versionedId="-1" tableId="28">
+	<AnimationFrames newId="0" versionedId="-1" tableId="28">
 	</AnimationFrames>
 	<WaySystems newId="3" versionedId="-1" tableId="29">
 		<WaySystem name="Wegpunkte" id="1" order="0" lastModified="-1">
