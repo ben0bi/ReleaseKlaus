@@ -856,6 +856,7 @@
 				<Link parentLink="T" id="13" tableId="6" LinkAny="F"/>
 				<Link parentLink="T" id="14" tableId="6" LinkAny="F"/>
 				<Link parentLink="T" id="17" tableId="6" LinkAny="F"/>
+				<Link parentLink="T" id="18" tableId="6" LinkAny="F"/>
 			</SceneObjects>
 			<SceneCursor parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<SceneSavegameAreas>
@@ -1001,7 +1002,7 @@
 			</PointRelations>
 		</Point>
 	</Points>
-	<Objects newId="18" versionedId="-1" tableId="6">
+	<Objects newId="19" versionedId="-1" tableId="6">
 		<Object name="Start game (active)" id="0" order="0" lastModified="-1" ObjectDirection="-1" ObjectCenter="61" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="104" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
 			<ObjectName parentLink="T" id="7" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
@@ -1203,7 +1204,7 @@
 			<ObjectComponents>
 			</ObjectComponents>
 		</Object>
-		<Object name="Foreground" id="10" order="2" lastModified="-1" ObjectDirection="-1" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
+		<Object name="Foreground" id="10" order="3" lastModified="-1" ObjectDirection="-1" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
 			<ObjectName parentLink="T" id="20" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
 			</ObjectPolygon>
@@ -1225,7 +1226,7 @@
 			<ObjectComponents>
 			</ObjectComponents>
 		</Object>
-		<Object name="BGAnimation" id="11" order="3" lastModified="-1" ObjectDirection="-1" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
+		<Object name="BGAnimation" id="11" order="4" lastModified="-1" ObjectDirection="-1" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
 			<ObjectName parentLink="T" id="21" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
 			</ObjectPolygon>
@@ -1310,7 +1311,7 @@
 			<ObjectComponents>
 			</ObjectComponents>
 		</Object>
-		<Object name="Zum_Cockpit" id="14" order="4" lastModified="-1" ObjectDirection="180" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
+		<Object name="Zum_Cockpit" id="14" order="5" lastModified="-1" ObjectDirection="180" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
 			<ObjectName parentLink="T" id="45" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
 				<point x="5" y="114"/>
@@ -1440,8 +1441,37 @@
 			<ObjectComponents>
 			</ObjectComponents>
 		</Object>
+		<Object name="MD-Karte" id="18" order="2" lastModified="-1" ObjectDirection="-1" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
+			<ObjectName parentLink="T" id="67" tableId="14" LinkAny="F"/>
+			<ObjectPolygon>
+				<point x="146" y="93"/>
+				<point x="163" y="92"/>
+				<point x="165" y="105"/>
+				<point x="147" y="104"/>
+			</ObjectPolygon>
+			<ObjectCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSprite parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectActions>
+				<Link parentLink="T" id="34" tableId="7" LinkAny="F"/>
+				<Link parentLink="T" id="35" tableId="7" LinkAny="F"/>
+				<Link parentLink="T" id="36" tableId="7" LinkAny="F"/>
+			</ObjectActions>
+			<ObjectConditions>
+			</ObjectConditions>
+			<ObjectAnimations>
+			</ObjectAnimations>
+			<ObjectValues>
+			</ObjectValues>
+			<ObjectPosition x="154" y="125"/>
+			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimationPos x="0" y="0"/>
+			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectComponents>
+			</ObjectComponents>
+		</Object>
 	</Objects>
-	<Actions newId="34" versionedId="-1" tableId="7">
+	<Actions newId="38" versionedId="-1" tableId="7">
 		<Action name="Linksklick" id="0" order="0" lastModified="-1" ActionExecutionType="7">
 			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -1635,8 +1665,33 @@
 				<Link parentLink="T" id="49" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
+		<Action name="Mausbewegung in Objektbereich" id="34" order="0" lastModified="-1" ActionExecutionType="1">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="50" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
+		<Action name="Mausbewegung aus Objektbereich" id="35" order="1" lastModified="-1" ActionExecutionType="2">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="51" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
+		<Action name="Rechtsklick (sofort)" id="36" order="2" lastModified="-1" ActionExecutionType="16">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="52" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="56" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="57" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="58" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="59" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
 	</Actions>
-	<ActionParts newId="50" versionedId="-1" tableId="8">
+	<ActionParts newId="60" versionedId="-1" tableId="8">
 		<ActionPart name="Zu Kulisse von Person 'Aktuelle Person' wechseln" id="0" order="0" lastModified="-1" ActionPartCommand="54" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -1759,6 +1814,34 @@
 		</ActionPart>
 		<ActionPart name="Cursor 'Cross' setzen" id="49" order="0" lastModified="-1" ActionPartCommand="94" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
 			<ActionPartLink parentLink="F" id="0" tableId="15" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Cursor 'LookAt' setzen" id="50" order="0" lastModified="-1" ActionPartCommand="94" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
+			<ActionPartLink parentLink="F" id="2" tableId="15" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Cursor 'Cross' setzen" id="51" order="0" lastModified="-1" ActionPartCommand="94" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
+			<ActionPartLink parentLink="F" id="0" tableId="15" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Character_Klaus: I need to be closer." id="52" order="0" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
+			<ActionPartLink parentLink="T" id="70" tableId="14" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Warte bis Person 'Aktuelle Person' fertig gesprochen hat" id="56" order="1" lastModified="-1" ActionPartCommand="157" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Person 'Aktuelle Person' zu Position (153,125) schicken und warten" id="57" order="2" lastModified="-1" ActionPartCommand="47" ActionPartPath="" ActionPartInt="153" ActionPartAltInt="125" ActionPartAltInt2="1" ActionPartString="" ActionPartDisabled="F">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Character_Klaus: There is something..." id="58" order="3" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
+			<ActionPartLink parentLink="T" id="78" tableId="14" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Objekt 'MD-Karte' um (0,0) verschieben" id="59" order="4" lastModified="-1" ActionPartCommand="158" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
+			<ActionPartLink parentLink="F" id="18" tableId="6" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
 	</ActionParts>
@@ -3004,7 +3087,7 @@
 			</SpriteSprite>
 		</Sprite>
 	</Sprites>
-	<Texts newId="67" versionedId="-1" tableId="14">
+	<Texts newId="80" versionedId="-1" tableId="14">
 		<Text name="Id: 0 - : Start menu" id="0" order="0" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
@@ -3211,6 +3294,23 @@
 			<TextTextLanguages>
 				<text Text="Lieber nicht." path="" int="1"/>
 				<text Text="Rather not." path="" int="2"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="67" order="67" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="1"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="70" order="70" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="Ich muss näher ran." path="" int="1"/>
+				<text Text="I need to be closer." path="" int="2"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="78" order="78" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="Da liegt etwas..." path="" int="1"/>
+				<text Text="There is something..." path="" int="2"/>
 			</TextTextLanguages>
 		</Text>
 	</Texts>
