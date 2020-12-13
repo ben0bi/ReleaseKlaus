@@ -896,6 +896,7 @@
 				<Link parentLink="T" id="19" tableId="6" LinkAny="F"/>
 				<Link parentLink="T" id="20" tableId="6" LinkAny="F"/>
 				<Link parentLink="T" id="21" tableId="6" LinkAny="F"/>
+				<Link parentLink="T" id="23" tableId="6" LinkAny="F"/>
 			</SceneObjects>
 			<SceneCursor parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<SceneSavegameAreas>
@@ -1047,14 +1048,14 @@
 				<Link parentLink="F" id="22" tableId="5" LinkAny="F"/>
 			</PointRelations>
 		</Point>
-		<Point name="Punkt0" id="26" order="0" lastModified="-1" PointSize="100">
+		<Point name="Punkt0" id="26" order="0" lastModified="-1" PointSize="124">
 			<PointPosition x="88" y="136"/>
 			<PointRelations>
 				<Link parentLink="F" id="27" tableId="5" LinkAny="F"/>
 			</PointRelations>
 		</Point>
 		<Point name="Punkt1" id="27" order="1" lastModified="-1" PointSize="150">
-			<PointPosition x="48" y="185"/>
+			<PointPosition x="65" y="166"/>
 			<PointRelations>
 				<Link parentLink="F" id="26" tableId="5" LinkAny="F"/>
 				<Link parentLink="F" id="28" tableId="5" LinkAny="F"/>
@@ -1081,7 +1082,7 @@
 			</PointRelations>
 		</Point>
 	</Points>
-	<Objects newId="23" versionedId="-1" tableId="6">
+	<Objects newId="24" versionedId="-1" tableId="6">
 		<Object name="Start game (active)" id="0" order="0" lastModified="-1" ObjectDirection="-1" ObjectCenter="61" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="104" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
 			<ObjectName parentLink="T" id="7" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
@@ -1663,8 +1664,39 @@
 			<ObjectComponents>
 			</ObjectComponents>
 		</Object>
+		<Object name="Waschbecken" id="23" order="3" lastModified="-1" ObjectDirection="-1" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
+			<ObjectName parentLink="T" id="98" tableId="14" LinkAny="F"/>
+			<ObjectPolygon>
+				<point x="122" y="119"/>
+				<point x="132" y="120"/>
+				<point x="144" y="120"/>
+				<point x="146" y="118"/>
+				<point x="141" y="114"/>
+				<point x="136" y="109"/>
+				<point x="131" y="107"/>
+			</ObjectPolygon>
+			<ObjectCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSprite parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectActions>
+				<Link parentLink="T" id="46" tableId="7" LinkAny="F"/>
+				<Link parentLink="T" id="47" tableId="7" LinkAny="F"/>
+			</ObjectActions>
+			<ObjectConditions>
+			</ObjectConditions>
+			<ObjectAnimations>
+			</ObjectAnimations>
+			<ObjectValues>
+			</ObjectValues>
+			<ObjectPosition x="0" y="0"/>
+			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimationPos x="0" y="0"/>
+			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectComponents>
+			</ObjectComponents>
+		</Object>
 	</Objects>
-	<Actions newId="46" versionedId="-1" tableId="7">
+	<Actions newId="48" versionedId="-1" tableId="7">
 		<Action name="Linksklick" id="0" order="0" lastModified="-1" ActionExecutionType="7">
 			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -1943,8 +1975,22 @@
 				<Link parentLink="T" id="74" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
+		<Action name="Mausbewegung in Objektbereich" id="46" order="0" lastModified="-1" ActionExecutionType="1">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="76" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
+		<Action name="Mausbewegung aus Objektbereich" id="47" order="1" lastModified="-1" ActionExecutionType="2">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="77" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
 	</Actions>
-	<ActionParts newId="75" versionedId="-1" tableId="8">
+	<ActionParts newId="78" versionedId="-1" tableId="8">
 		<ActionPart name="Zu Kulisse von Person 'Aktuelle Person' wechseln" id="0" order="0" lastModified="-1" ActionPartCommand="54" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -2143,6 +2189,14 @@
 		</ActionPart>
 		<ActionPart name="Zu Kulisse 'UFO_Lebensraum' wechseln" id="74" order="0" lastModified="-1" ActionPartCommand="10" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
 			<ActionPartLink parentLink="F" id="20" tableId="6" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Cursor 'LookInteract' setzen" id="76" order="0" lastModified="-1" ActionPartCommand="94" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
+			<ActionPartLink parentLink="F" id="5" tableId="15" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Cursor 'Cross' setzen" id="77" order="0" lastModified="-1" ActionPartCommand="94" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="" ActionPartDisabled="F">
+			<ActionPartLink parentLink="F" id="0" tableId="15" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
 	</ActionParts>
@@ -3397,7 +3451,7 @@
 			</SpriteSprite>
 		</Sprite>
 	</Sprites>
-	<Texts newId="99" versionedId="-1" tableId="14">
+	<Texts newId="103" versionedId="-1" tableId="14">
 		<Text name="Id: 0 - : Start menu" id="0" order="0" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
@@ -3668,6 +3722,12 @@
 			<TextTextLanguages>
 				<text Text="Downwards" path="" int="2"/>
 				<text Text="Da gehts runter." path="" int="1"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="98" order="98" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="Waschbecken" path="" int="1"/>
+				<text Text="Sink" path="" int="2"/>
 			</TextTextLanguages>
 		</Text>
 	</Texts>
